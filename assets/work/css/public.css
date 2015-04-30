@@ -1,0 +1,138 @@
+@charset "utf-8";
+/**
+*Name:Mai HuaQiu
+*Email:maihuaqiu@dt-edu.cn
+*Date:2013-12-11
+**/
+*{ margin: 0; padding: 0;}
+body {/*height:700px;*/font-size: 14px;font-family: "微软雅黑";color: #737373;}
+ul {list-style-type: none;}
+a{cursor: pointer;color:#737373;}
+a:link,a:visited,a:hover,a:active {text-decoration: none;}
+button {cursor: pointer;}
+.fr {float: right;}
+.f1 {float: left;}
+.ClearFloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.ClearFloat{zoom:1}
+.hidden{display: none;}
+
+.DocIcon,.PdfIcon,.PptIcon,.TxtIcon,.ExcelIcon,.DocxIcon,.PptxIcon,.XlsxIcon,.WpsIcon,
+.PngIcon,.JpgIcon,.GifIcon,.TtfIcon,.ExeIcon,.JpegIcon,.BmpIcon,.MpegIcon,.MpgIcon,.WmvIcon,
+.WavIcon,.SwfIcon,.Mp3Icon,.Mp4Icon,.DibxIcon,.FlvIcon,.F4vIcon,.RmIcon,.RmvbIcon,.AviIcon,.WmaIcon,.DefaultIcon
+{width:20px;height:18px;float:left;background:url(../images/public/file_small.png) no-repeat;position:relative;left:20px;top:9px; margin-right:10px;}
+
+.DefaultIcon{background-position: -90px 0px;}
+
+.DocIcon{background-position:0 0;}
+.PdfIcon{background-position:0 -28px;}
+.PptIcon{background-position:0 -56px;}
+.TxtIcon{background-position:0 -84px;}
+.ExcelIcon{background-position:0 -112px;}
+.DocxIcon{background-position:0 -140px;}
+.PptxIcon{background-position:0 -168px;}
+.XlsxIcon{background-position:0 -196px;}
+.WpsIcon{background-position:0 -224px;}
+.ExeIcon{background-position:0 -252px;}
+
+.PngIcon{background-position:-30px 0}
+.JpgIcon{background-position:-30px -28px;}
+.GifIcon{background-position:-30px -56px;}
+.TtfIcon{background-position:-30px -84px;}
+.JpegIcon{background-position:-30px -140px;}
+.BmpIcon{background-position:-30px -168px;}
+.MpegIcon{background-position:-30px -196px;}
+.MpgIcon{background-position:-30px -224px;}
+.WmvIcon{background-position:-30px -252px;}
+
+.WavIcon{background-position:-60px 0}
+.SwfIcon{background-position:-60px -28px;}
+.Mp3Icon{background-position:-60px -56px;}
+.Mp4Icon{background-position:-60px -84px;}
+.DibxIcon{background-position:-60px -112px;}
+.FlvIcon{background-position:-60px -140px;}
+.F4vIcon{background-position:-60px -168px;}
+.RmIcon{background-position:-60px -196px;}
+.RmvbIcon{background-position:-60px -224px;}
+.AviIcon{background-position:-60px -252px;}
+.WmaIcon{background-position:-60px -280px;}
+
+/* ========= 大文件类型图片 ========= */
+.DocBigIcon,.PdfBigIcon,.PptBigIcon,.TxtBigIcon,.ExcelBigIcon,.DocxBigIcon,.PptxBigIcon,.XlsxBigIcon,.WpsBigIcon,
+.PngBigIcon,.JpgBigIcon,.GifBigIcon,.JpegBigIcon,.BmpBigIcon,.MpegBigIcon,.MpgBigIcon,.WmvBigIcon,
+.WavBigIcon,.SwfBigIcon,.Mp3BigIcon,.Mp4BigIcon,.DibxBigIcon,.FlvBigIcon,.F4vBigIcon,.RmBigIcon,.RmvbBigIcon,.AviBigIcon,.WmaBigIcon
+.FolderEmptyBigIcon,.FolderBigIcon,.LogoBigIcon,.WmaBigIcon,.ExeBigIcon
+{width: 52px;height: 62px;float: left;background: url(../images/public/file_big.png) no-repeat;}
+.DocBigIcon{background-position:0px 0px;}
+.PdfBigIcon{background-position:0 -69px;}
+.PptBigIcon{background-position:0 -139px;}
+.TxtBigIcon{background-position:0 -209px;}
+.ExcelBigIcon{background-position:0 -279px;}
+.DocxBigIcon{background-position:0 -349px;}
+.PptxBigIcon{background-position:0 -419px;}
+.XlsxBigIcon{background-position:0 -489px;}
+.WpsBigIcon{background-position:0 -559px;}
+
+.PngBigIcon{background-position:-62px 0}
+.JpgBigIcon{background-position:-62px -69px;}
+.GifBigIcon{background-position:-62px -139px;}
+.JpegBigIcon{background-position:-62px -209px;}
+.BmpBigIcon{background-position:-62px -279px;}
+.MpegBigIcon{background-position:-62px -349px;}
+.MpgBigIcon{background-position:-62px -419px;}
+.WmvBigIcon{background-position:-62px -489px;}
+
+.WavBigIcon{background-position:-123px 0px}
+.SwfBigIcon{background-position:-123px -69px;}
+.Mp3BigIcon{background-position:-123px -139px;}
+.Mp4BigIcon{background-position:-123px -209px;}
+.DibxBigIcon{background-position:-123px -279px;}
+.FlvBigIcon{background-position:-123px -349px;}
+.F4vBigIcon{background-position:-123px -419px;}
+.RmBigIcon{background-position:-123px -489px;}
+.RmvbBigIcon{background-position:-123px -559px;}
+.AviBigIcon{background-position:-123px -629px;}
+.WmaBigIcon{background-position:-123px -699px;}
+
+.FolderEmptyBigIcon{background-position:-184px 0px;}
+.FolderBigIcon{background-position:-184px -70px;}
+.LogoBigIcon{background-position:-184px -139px;}
+
+.ExeBigIcon{background-position:-184px -209px;}
+
+/*================== images/public/ ==================*/
+.ArrowIcon {float:left;background: url("../images/public/pep_icon.png") no-repeat;}
+.SearchBtn,.SearchHoverBtn,.PlayIcon,.PlayHoverIcon,.FirstIcon,.PrevIcon,.NextIcon,.WhiteIcon,
+.LastIcon,.FirstHoverIcon,.PrevHoverIcon,.NextHoverIcon,.LastHoverIcon,.GreenIcon,.DetailIcon,.DetailIconChosen
+ {float:left;width:20px;height:20px;background: url("../images/public/pep_but.png") no-repeat;}
+
+.ArrowIcon {background-position: -17px 6px;}
+
+/*搜索栏*/
+.SearchStyle {background: url("../images/public/search_bg.gif") no-repeat;background-position: 0px 0px;width: 282px;height: 30px;z-index: -2;}
+.SearchBtn {position: absolute;margin: 0px 0px 0px -48px;width: 50px;height: 30px;background-position: 0px 0px;z-index: 1;cursor: pointer;}
+.SearchBtn:hover {background-position: 0px -38px;}
+.SearchBar {float: right;display: inline-block; width: 280px; margin: 8px 8px 0;}
+.SearchBar .SearchContent {clear: none;float: left;}
+.SearchBar .SearchContent input {border: 0px;margin-left: 30px;margin-top: 2px;width: 205px;height: 25px;line-height:25px;background-color: #ededf0;}
+
+.PlayIcon {background-position: -57px 0px;}
+.PlayIcon:hover {background-position: -57px -29px;}
+
+.FirstIcon {background-position:-57px -57px;}
+.PrevIcon {background-position: -85px -57px;}
+.NextIcon {background-position: -115px -57px;}
+.LastIcon {background-position: -143px -57px;}
+.FirstIcon:hover {background-position: -57px -86px;}
+.PrevIcon:hover {background-position: -85px -86px;}
+.NextIcon:hover {background-position: -115px -86px;}
+.LastIcon:hover {background-position: -143px -86px;}
+.WhiteIcon {background-position: -172px -57px;}
+.GreenIcon {background-position: -172px -86px;}
+
+.DetailIcon {width: 20px;height: 30px;background-position: 0px -111px;}
+.DetailChosenIcon {background-position: 0px -75px;}
+
+.fl{float:left;}
+.fr{float:right;}
+
+.table-responsive{overflow: auto; position: relative;}

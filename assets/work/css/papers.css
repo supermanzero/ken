@@ -1,0 +1,491 @@
+@charset "utf-8";
+/**
+*Name:Mai HuaQiu
+*Email:maihuaqiu@dt-edu.cn
+*Date:2014-11-4
+**/
+/**图标 start**/
+.mb0{margin-bottom: 0}
+.mt61{margin-top: 61px;}
+em,i{list-style-type: none;font-style:normal;}
+.input-group .w300{width: 300px;}
+.examFavoriteTipText a{margin-left: 15px;color: #999}
+.IntoExam,.OutExam,.ExamKeepBut,.ExamKeepButHas,.ExamDelBut,.CheckExamWrong,.CheckExamWrongOut,.ExamCenterPeparBut,.ExamCenterCheckBut,.ExamCenterContinueBut,.ExamCenterOpenBut,.ExamCenterCloseBut,.EditingExamIcon,.EditingExam, .ReviseExam{ background:url(/apps/testpapers/images/common/exam_icon.png) -7px -87px no-repeat; width:21px; height:22px; float:left; margin:7px 3px 0 0;}
+.ExamKeepButHas{ background-position:-33px -8px;}
+.OutExam{ background-position:-33px -87px;}
+a:hover .OutExam{ background-position:-181px -87px;}
+a:hover .IntoExam{ background-position:-155px -87px;}
+.ExamKeepBut{background-position:-7px -8px;}
+a:hover .ExamKeepBut{background-position:-155px -8px;}
+.ExamKeepButHas{ background-position:-33px -8px;}
+a:hover .ExamKeepButHas{ background-position:-181px -8px;}
+.ExamDelBut{background-position:-118px -8px;}
+a:hover .ExamDelBut{background-position:-266px -8px;}
+.CheckExamWrong{background-position:-89px -45px;}
+a:hover .CheckExamWrong{background-position:-237px -45px;}
+.CheckExamWrongOut{background-position:-115px -45px;}
+a:hover .CheckExamWrongOut{background-position:-263px -45px;}
+.CheckExam{background-position:-89px -45px;}
+a:hover .CheckExam{background-position:-89px -45px;}
+.ExamCenterPeparBut{background-position:-59px -87px;}
+a:hover .ExamCenterPeparBut{background-position:-207px -87px;}
+.ExamCenterCheckBut{background-position:-90px -87px;}
+a:hover .ExamCenterCheckBut{background-position:-238px -87px;}
+.ExamCenterContinueBut{background-position:-118px -126px;}
+a:hover .ExamCenterContinueBut{background-position:-266px -126px;}
+.ExamCenterOpenBut{background-position:-5px -126px;}
+a:hover .ExamCenterOpenBut{background-position:-153px -126px;}
+.ExamCenterCloseBut{background-position:-31px -126px;}
+a:hover .ExamCenterCloseBut{background-position:-179px -126px;}
+.EditingExamIcon{background-position:-118px -87px;}
+a:hover .EditingExamIcon{background-position:-266px -87px;}
+.EditingExam{background-position:-90px -126px;}
+a:hover .EditingExam{background-position:-238px -126px;}
+.ReviseExam{background-position:-92px -8px;}
+a:hover .ReviseExam{background-position:-240px -8px;}
+.examInformation a em{ margin-top:2px;}
+.examEditBox{color:#54B06E;}
+/**图标 end**/
+.paperWord{margin:10px 0 0 0;}
+.container-fluid{padding:0;}
+.paperWarp{padding-left: 15px;width:670px; margin:0 auto;}
+.mt1{margin-top: 1px;}
+.examView{padding:0 3px;}
+.timeBtn em, .timeDownBtn em{
+    background: url("/apps/testpapers/images/common/search_icon.png") no-repeat;
+    display: inline-block;
+    float: left;
+    height: 19px;
+    margin-left: 5px;
+    width: 15px;
+    margin-top: 3px;
+}
+.timeDownBtn em{background-position:-16px 2px}
+/**收藏 start**/
+.examCenterContent {float: left;margin-top: 17px;width:655px;}
+.examCenterContent .examContentTwo{float:left;width:655px;border:1px solid #e5e5e5;border-bottom:none; overflow:hidden; margin-top:-12px;}
+.examContentTwo li{border-bottom:2px solid #2CBB54;float:left; width:100%;color:#999; cursor: default;}
+.examPaperList{width:655px;border:1px solid #eaeaea;float:left; padding:11px 0; background:#fff;float:left}
+.examPaperList img{float:left; margin-top:7px;}
+.examPaperInformation{height:35px; line-height:35px; border-bottom:1px dashed #BFD6A2;width:655px; padding:0 10px; color:#666;font-size: 12px;}
+.examPaperInformation span{ margin-left:-7px;}
+.examPaperInformation em {color: #E84C3D; padding: 0 5px;}
+.examFavoriteTipText{width:655px;background:#FAFAFA; line-height:35px; padding:0 10px; float:left;margin:0;}
+.examFavoriteTipText .personalName {color: #E84C3D;}
+.examPaperPic{float:left; overflow:hidden; width:665px; padding:10px;}
+.examPaperPic img{ width:93%;}
+/**收藏 end**/
+.nav-tabs{/*border-bottom: 0*/;margin-top: 10px;}
+.navbarborder{ background: none;border-color: -moz-use-text-color -moz-use-text-color #e7e7e7;border-style: none none solid;border-width: 0 0 1px;}
+.table-responsive{padding-left: 0;}
+.selectOver{float:left;clear: both;margin: 10px 0 10px 0 ;}
+.selectOver span {color: #54b06e;padding: 0 10px;}
+.testWarp{padding-left: 15px;}
+.breadcrumb{background: none;margin-bottom: 0;padding:18px 0 0 15px;}
+.breadcrumb > li + li:before {background: url("../images/breadcrumb_bg_02.png") no-repeat scroll right center;content: " ";margin-right: 10px;}
+/**查看试卷 start**/
+.paperRightcontent{background: none;margin-left: 10px;margin-right: 0;min-height: 100%;position: relative;width: 960px;}
+.checkWarp{width:980px;margin:10px 0 0;}
+.editWarp{width:887px;margin:10px auto 0;}
+.examWrapLeftMid{float:left; overflow:hidden;width:980px;}
+.examWrapLeftMid .Title{ color:#333; font-size:21px; text-align:center; width:100%; font-weight:bold;}
+.detailLeftBox{float:left;width:168px;}
+.imgDetailBox{width:168px;height:225px;float:left;margin-bottom:10px;}
+.questionsNum{color:#097C25;text-align:center;}
+.questionsNum span{color:#000;margin:0 5px;font-size:18px;}
+.detailRightBox{float:left;width:636px;}
+.examDetailBox{background:#f7f7f7;float:left;padding-left:117px;margin-top:25px;height:177px;width:620px;display:inline;border-top:1px solid #f2f2f2;border-bottom:1px solid #f2f2f2;border-right:1px solid #f2f2f2;}
+.examDetailBox ul{ width:409px; float:left; padding:16px 0;}
+.examDetailBox ul li{ padding:5px 5px; width:194px; float:left;overflow: hidden; text-overflow: ellipsis; white-space: nowrap;color:#097c25}
+.examDetailBox ul li span{ color:#000;width:100px;}
+.examDetailBox ul li em,.BackTestBtn,.BackTestBtn em,.MustKnowBoxTitle em,.ExamWrapLeftMid .EditTips em{display:inline-block; width:12px; height:15px;background:url("/apps/testpapers/images/common/search_icon.png") no-repeat -85px -134px; margin:0 8px -5px 0; float:left;}
+.examDetailBox ul li em{ width:10px; height:10px; background-position:-54px 0; margin:6px 5px 0 0;}
+.detailButBox{float:left;padding:28px 0 0 133px;width:538px;}
+.detailButBox li{float:left;}
+.examWrapCheck{float:left; overflow:hidden;width:805px;}
+.examWrapCheck .Title{ color:#333; font-size:21px; text-align:center; width:100%; font-weight:bold;}
+/**查看试卷 end**/
+/**试卷内容 start**/
+.examWrapCont{ width:980px; overflow:hidden; margin:0 auto; padding:10px 0 30px 0; position: relative;}
+.examWrapLeft{width:716px;}
+.examPaperHeader{width:716px; height:64px; overflow:hidden;background:url("/apps/testpapers/images/common/paper_header_bg.jpg") no-repeat; text-align:center; padding:30px 0 0 0; margin-top:-7px;}
+.paPerTitle{font-size:16px; color:#333;width:716px;float:left; margin-bottom:10px; overflow:hidden;height: 25px;}
+.examPaperContent{width:716px;background:url("/apps/testpapers/images/common/paper_body_bg.jpg") repeat-y;float:left; padding-left:20px;}
+.bigType{ float:left; padding-left:30px; width: 674px;border:1px solid #eaeaea; background:#daf5ff; height:40px; line-height:40px; color:#19c4cf; font-size:16px;}
+.examTestList{width:676px; overflow:hidden; float:left;background:#fff; margin-bottom:10px;}
+.examTestList li{width:674px;padding-top:11px; border: 1px solid #eeeeee; border-top:none; float:left;_float:none;}
+.examTestList li:hover{ border:1px solid #7ddafc;padding-top:10px;}
+.examTestList .MotifLi{ margin-bottom:10px;border-top:1px solid #eaeaea;padding-top:10px;}
+.examTestList .MotifLiFirst{padding-top:11px; border-top:none;}
+.examTestList .MotifLi .examPaperPic img,.AnswersPicArea img{ padding-left:20px;} 
+.examTestList .MotifLi li:hover,.ExamPaperList .MotifLi li{border:none;border-top: 1px solid #eeeeee; padding-top:10px;}
+.examTestList .MotifLi li .examPaperPic img,.ExamPaperEdit .MotifLi .examPaperPic img{padding-left:0;} 
+.imgTimu{width: 93%;}
+.examPaperPic span{color:#fff;background:#7ddafc; float:left;font-size:12px;padding:4px 0; width:20px; text-align:center;}
+/**答题卡 start**/
+/*.examWrapRight{ width:250px; position: absolute; top: 10px; right: 20px;}*/
+.examWrapRight{
+    position: fixed;
+    width: 250px;
+    top: 160px;
+    left: 925px;
+}
+.testCard{ background:#ffffff; overflow:hidden;width:250px;}
+.testCard .testType{font-size:14px; /*width:246px;*/padding:0 10px;height:30px;line-height:30px;color:#949494; background:#f5f5f5;}
+.testCard .testNum {width:246px;overflow:hidden;padding: 5px 10px; }
+.testCard .testNum a{width:24px;height:23px;display:inline-block; float:left; background:#fff; border:#d2d2d2 solid 1px; margin:2px; text-align:center; line-height:21px;color:#000; font-size:13px;border-radius: 3px;}
+.testCard .testNum a:hover{ color:#000; border:1px solid #54B06E;}
+.testOverCard .testNumMean span{ width:75px;}
+.testOverCard .testNumMean .Responded{ padding-left:15px;}
+.testOverCard .testNum a{color:#000;background:#fff;border:1px solid #d2d2d2}
+.testOverCard .testNum a:hover{ background:#fff; color:#000;border:#54B06E solid 1px;}
+/**题目颜色**/
+.testCard .testNum .testNormal{background:#dad9d9; color:#000;}
+.testCard .testNum .testNormal:hover{ border:1px solid #54B06E; background:#dad9d9; color:#000;}
+.testCard .testNum .testDone{background:#27ae61; color:#fff;}
+.testCard .testNum .testDone:hover{ border:1px solid #d2d2d2; background:#91e5ab; color:#fff;}
+.testCard .testNum .testDone{background:#eb5d54; color:#fff;}
+.testCard .testNum .testDone:hover{ border:1px solid #d2d2d2; background:#e8a19b; color:#fff;}
+/**题目颜色**/
+.testOverCard .testNum .TestDone:hover{ background:#91e5ab;}
+.testOverCard .testNumMean .Normal em{ background:#dad9d9; color:#000;}
+.testOverCard .testNum .testDone,.TestOverCard .testNumMean .Responded em{ background:#27ae61; }
+.testCardCont{ border:1px solid #d8d8d8;width:248px; float:left;}
+.numMeanWrong em,.numMeanResponded em,.numMeanNormal em {background: #eb5d54;display: inline-block;width:12px;height: 12px;margin-right: 5px;}
+.numMeanResponded em{background: #27ae61;}
+.numMeanNormal em{ background: #dad9d9}
+.bottomBut{background: #f5f5f5;padding:10px;/*width:246px;*/text-align: center;}
+/**答题卡 end**/
+/**编辑试题 start**/
+.answersArea{float:left;padding:5px 30px;border-top:1px dashed #eee; width:672px; overflow:hidden; font-size:13px;}
+.answersArea span{ clear:both; float:left; width:100%; line-height:20px;}
+.answersArea img{ padding-left:20px;}
+.setAnswerText{ overflow:hidden; line-height:35px; border-top:1px dashed #EEEEEE;width: 614px; margin:0 30px; font-size:13px;}
+.setAnswerText .sx{ float:left; padding:0 10px;}
+.setAnswerText .fr{ margin-right:-7px;}
+.setAnswerText em{padding:0 5px;color:#E84C3D;}
+.rightText{color:#999999; font-size:13px;}
+.rightText em{ color:#666; clear:both; width:100%}
+.cImgDaan{width: 93%;}
+.examPaperTipText{/*width:672px;*/ padding:0 10px; background:#fafafa; line-height:35px;/*float:left;*/font-size:14px;}
+.examPaperTipText p{margin-bottom: 0;}
+.IntoStyle, .OutStyle, .IntoStyle a, .ExamFavoriteTipText a, .ExamInformation a {color: #999;font-size: 13px;margin-left: 20px;}
+.IntoStyle:hover, .OutStyle:hover, .IntoStyle a:hover, .ExamInformation a:hover, .ExamFavoriteTipText a:hover {
+    color: #54b06e;
+}
+.greenWord{color:#097c25;}
+.wordBut{background:url("/apps/testpapers/images/common/num_bg2.jpg") repeat;padding:10px;width:246px;text-align: center;color: #fff;}
+.wordBut p{line-height:30px;margin:0}
+/**编辑试题 end**/
+.searchRadio{margin:5px 10px 0 0;}
+.examPaperFooter{width:716px;height:50px; float:left;background:url("/apps/testpapers/images/common/paper_footer_bg.jpg") no-repeat bottom;}
+/**试卷内容 end**/
+
+/*弹窗*/
+.PopUpBox{position: absolute;left: 700px;top: 500px;border-left: 1px solid #ddd;border-top: 1px solid #ddd;border-right: 1px solid #ddd;border-bottom: 2px solid #ddd;background-color: #fff; z-index: 1002;}
+.PopUpHeader{height: 33px;line-height: 33px;background-color: #fff;border-bottom: 1px solid #ddd;}
+.ClearFloat {zoom: 1;}
+.PopUpBox .CloseBtn {float: right;margin: 10px 15px; height: 13px;width: 13px;background: url("../../../images/re_icon.png") no-repeat -60px -281px;border: 0 none;}
+.PopUpBox .uploadTitle {padding:0 0px 0px 10px; display: inline;}
+.uploadBox .CloseBtn {float: right;margin: 10px 15px;}
+.BodyMask{display: none; background: #666666; filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1001; text-align: center;}
+.uploadBox .uploadContent{padding:10px;}
+.uploadBox{display: none; width: 700px;}
+
+.BodyMask{
+    background: none repeat scroll 0 0 #666666;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1001;
+}
+.uploadBox .uploadContent .msg-title{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+    padding-left: 10px;
+}
+.uploadBox .uploadContent p.msg{
+    font-size: 12px;
+    color: #666;
+    line-height: 22px;
+    margin: 0;
+    padding-left: 10px;
+}
+.uploadBox .uploadContent p.msg a{color: #f60;}
+.uploadBox .uploadContent p.msg .deep{color: #333;text-decoration: underline;}
+.uploadBox .uploadContent .consent{float: left;margin: 10px 0 0 10px;}
+.uploadBox .uploadContent .consent-text{
+    width: 240px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    margin-top: 8px;
+    display: block;
+    float: left;
+    color: #666;
+}
+.uploadBox .uploadContent .alert{display: none;}
+.uploadBox .uploadContent .Notice{color: #ec7063;font-size: 13px;text-align: left;}
+.uploadBox .uploadContent .btn-upload-finish{display: block;margin: 0 auto;}
+.uploadBox .uploadContent .local .dropdown{width: 200px;}
+.uploadBox .uploadContent .upload-box-02{display: none;}
+
+/*移出试题集弹窗*/
+.DeletePopUpBox {
+    display: none;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    width: 340px;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    background-color: #fff;
+    z-index: 1002;
+}
+.DeletePopUpBox .DeleteTitle{margin: 0 0 0 10px;}
+.DeletePopUpBox .DeleteContent p{text-align: center;margin-top: 20px;}
+.DeletePopUpBox .DeleteContent .BtnGroup{width: 122px;margin:  20px auto;}
+
+/*编辑属性弹窗*/
+.editBox{
+    width: 500px;
+    display: none;
+}
+.editBox .PopUpHeader span.sort{
+    color: #ff3333;
+    font-weight: bold;
+}
+.editBox .EditContent{
+    padding: 10px 0 20px 20px;
+}
+.editBox .EditContent .knows-box{
+    margin-left: -2px;
+}
+.editBox .EditContent .knows .dropdown{
+    width: 359px;
+}
+.editBox .EditContent .choose{
+    margin-left: -2px;
+}
+.editBox .EditContent .uploadButtonBox{
+    position: relative;
+}
+.editBox .EditContent .uploadButtonBox span.msg{
+    position: absolute;
+    top: 10px;
+    left: 140px;
+}
+.editBox .EditContent .btn-upload-finish {
+    display: block;
+    margin: 0 auto;
+}
+/*编辑属性弹窗 end */
+
+/**试卷内容 end**/
+
+/**选题组卷**/
+.examBoxLeft{width:212px;float:left;padding:14px 0 0 11px;background:#fbfbfb;}
+.examBoxRight{width:674px;float:left;}
+.indeperIcon{background: url("/apps/testpapers/images/common/knowledge_icon.jpg") no-repeat;float: left;height: 34px;width: 88px;}
+.indeperList{float: left;border-left:1px solid #eee;margin-left:17px;}
+.indeperList li{float: left;line-height: 27px;margin-top:5px;}
+.indeperList li a {float: left;font-size: 13px;overflow: hidden; text-indent:5px;}
+.indeperList li i{background:url("/apps/testpapers/images/common/inde_icon.png") no-repeat;width:17px;height:17px;float:left;margin-top:6px;}
+.indeperItem a{width:165px;}
+.indeperItem{}
+.indeperList .indeperAdd{background-position:0 0;margin-left:-8px;}
+.indeperList .indeperMinus{background-position:0 -19px;margin-left:-8px;}
+.indeperList .indeperNormalOne{background-position:-185px 0;margin-left:-8px;}
+.indeperList .indeperChooseOne{background-position:-185px -19px;margin-left:-8px;}
+.indeperList .indeperNow{background-position:0 -38px;margin:9px 0 0 -8px;width:10px;height:10px;}
+.indeperList .indeperNormal{background-position:0 -51px;margin:9px 0 0 -8px;width:10px;height:10px;}
+.indeperList .indeperListTwo{padding-left:16px;float:left;}
+.indeperListTwo .indeperItem a{width:155px;}
+.indeperOne{}
+.indeperList .indeperListThree{padding-left:16px;float:left;}
+.indeperListThree .indeperItem a{width:146px;}
+.indeperItem .indeperTitleNow,.indeperItem .indeperOne{color:#000;background:#E9F8EE;margin-left:5px;}
+.paperList{ width:674px;border-left: 1px solid #eee;padding:0 0 11px 0; background:#fff;float:left;min-height:540px;height:auto !important;height:540px;overflow:visible}
+.imgWidth{width:89%;}
+.paperList .imgBox{float:left; width:100%;position:relative;}
+.paperList li{padding:21px 0 0 0; border:1px solid #fff;border-bottom:1px solid #eaeaea;width:676px;float:left;position:relative; z-index:2}
+.paperList li:hover{border:1px solid #54B06E; position:relative; z-index:2}
+.paperList .lastLi{border-bottom:none;}
+.examBox{width:889px;border:1px solid #eee;float:left; margin-top:15px; background:#FBFBFB; position:relative;}
+.tipText{ width:672px; height:35px; background:#FAFAFA; line-height:35px; margin:14px 0 0 0;float:left; color:#999; font-size:13px; position:relative;}
+.tipText .correctTip{ color:#54B06E;}
+.tipText a{color: #999}
+.paperCollect,.paperCollected{float:right;position:absolute;z-index:1;top:-22px;right:10px;background:url("/apps/testpapers/images/common/inde_icon.png") -60px -30px no-repeat;width:52px;height:58px; cursor:pointer;}
+.paperCollected{background-position:-116px -30px;width:52px;height:69px;}
+
+.floatingLabels{width:74px;position:fixed;float:left;background:url("/apps/testpapers/images/common/inde_icon.png") -3px -97px no-repeat; margin-left:897px;}
+.floatingLabels li{ position:relative;width:65px;float:left;margin-left:4px;height:90px;}
+.floatingLabels a{background:url("/apps/testpapers/images/common/inde_icon.png") 0 0 no-repeat;width:65px;height:32px; padding-top:58px;text-align:center;float:left; }
+.floatingLabels a:hover{}
+.floatingLabels .backTop{background-position:-77px -250px;}
+.floatingLabels .collectBut{background-position:-78px -178px;}
+.floatingLabels .testBox{background-position:-79px -91px;height:25px; padding-top:65px;}
+.floatingLabels .backTop:hover{background-position:-135px -250px;}
+.floatingLabels .collectBut:hover{background-position:-136px -178px;}
+.floatingLabels .testBox:hover{background-position:-147px -91px;height:25px; padding-top:65px;}
+.testBoxNum{width:19px;left:40px;top:14px;position:absolute;color:#fff; text-align:center;}
+.indeperRight{z-index:3;border-left: 1px solid #eee;border-bottom: 1px solid #eee; width: 674px;padding:10px;float: left; background:#fbfbfb; position: absolute;}
+.indeperRight span{ color: #54b06e;margin:0 3px;}
+.indeperRight p{}
+
+.searchWarp{width:805px;margin:10px auto 0;}
+/**答题卡 start**/
+.searchExamWrapRight{ width:200px;}
+.searchtestCard{ background:#ffffff; overflow:hidden;width:200px;}
+.searchtestCard .searchtestType{font-size:14px; width:198px;padding:0 10px;height:30px;line-height:30px;color:#949494; background:#f5f5f5;}
+.searchtestCard .searchtestNum {width:200px;overflow:hidden;padding: 5px 10px; }
+.searchtestCard .searchtestNum a{width:24px;height:23px;display:inline-block; float:left; background:#fff; border:#d2d2d2 solid 1px; margin:2px; text-align:center; line-height:21px;color:#000; font-size:13px;border-radius: 3px;}
+.searchtestCard .searchtestNum a:hover{ color:#000; border:1px solid #54B06E;}
+.searchtestOverCard .searchtestNumMean span{ width:75px;}
+.searchtestOverCard .searchtestNumMean .Responded{ padding-left:15px;}
+.searchbottomBut{background: #f5f5f5;padding:10px;width:198px;text-align: center;}
+.searchtestOverCard .searchtestNum .TestDone:hover{ background:#91e5ab;}
+.searchtestOverCard .searchtestNumMean .Normal em{ background:#dad9d9; color:#000;}
+.searchtestOverCard .searchtestNum .testDone,.TestOverCard .testNumMean .Responded em{ background:#27ae61; }
+.searchtestCardCont{ border:1px solid #d8d8d8;width:200px; float:left;}
+.numMeanWrong em,.numMeanResponded em,.numMeanNormal em {background: #eb5d54;display: inline-block;width:12px;height: 12px;margin-right: 5px;}
+.numMeanResponded em{background: #27ae61;}
+.numMeanNormal em{ background: #dad9d9}
+/**组卷库**/
+.smallWrapLeftMid{float:left; overflow:hidden;width:805px;}
+.smallWrapLeftMid .Title{ color:#333; font-size:21px; text-align:center; width:100%; font-weight:bold;}
+.smallWrapCont{ width:805px; overflow:hidden; margin:0 auto; padding:10px 0 30px 0;}
+.smallWrapLeft{width:600px;}
+.smallPaperHeader{width:600px; height:64px; overflow:hidden;background:url("/apps/testpapers/images/common/small_header_bg.jpg") no-repeat; text-align:center; padding:30px 0 0 0; margin-top:-7px;}
+.smallpaPerTitle{font-size:16px; color:#333;width:600px;float:left; margin-bottom:10px; overflow:hidden;height: 25px;}
+.smallPaperContent{width:600px;background:url("/apps/testpapers/images/common/small_body_bg.jpg") repeat-y;float:left; padding-left:20px;}
+.smallType{ float:left; padding-left:30px; width: 560px;border:1px solid #eaeaea; background:#ecf9f0; height:40px; line-height:40px; color:#57b471; font-size:16px;}
+.smallTestList{width:560px; overflow:hidden; float:left;background:#fff; margin-bottom:10px;}
+.smallTestList li{width:560px;padding-top:11px; border: 1px solid #eeeeee; border-top:none; float:left;_float:none;}
+.smallTestList li:hover{ border:1px solid #54B06E;padding-top:10px;}
+.smallTestList .MotifLi{ margin-bottom:10px;border-top:1px solid #eaeaea;padding-top:10px;}
+.smallTestList .MotifLiFirst{padding-top:11px; border-top:none;}
+.smallTestList .MotifLi .examPaperPic img,.AnswersPicArea img{ padding-left:20px;} 
+.smallTestList .MotifLi li:hover,.ExamPaperList .MotifLi li{border:none;border-top: 1px solid #eeeeee; padding-top:10px;}
+.smallTestList .MotifLi li .examPaperPic img,.ExamPaperEdit .MotifLi .examPaperPic img{padding-left:0;} 
+.imgTimu{width: 93%;}
+.smallPaperPic{float:left; overflow:hidden; width:560px; padding:10px;}
+.smallPaperPic span{color:#fff;background:#57b471; float:left;font-size:12px;padding:4px 0; width:20px; text-align:center;}
+.smallanswersArea{float:left;padding:5px 30px;border-top:1px dashed #eee; width:558px; overflow:hidden; font-size:13px;}
+.smallanswersArea span{ clear:both; float:left; width:100%; line-height:20px;}
+.smallanswersArea img{ padding-left:20px;}
+.smallsetAnswerText{ overflow:hidden; line-height:35px; border-top:1px dashed #EEEEEE;width:498px; margin:0 30px; font-size:13px;}
+.smallsetAnswerText .sx{ float:left; padding:0 10px;}
+.smallsetAnswerText .fr{ margin-right:-7px;}
+.smallsetAnswerText em{padding:0 5px;color:#E84C3D;}
+.smallPaperFooter{width:600px;height:50px; float:left;background:url("/apps/testpapers/images/common/small_footer_bg.jpg") no-repeat bottom;}
+.smallPaperTipText{width:558px; padding:0 10px; background:#fafafa; line-height:35px;float:left;font-size:14px;}
+.smallPaperTipText p{margin-bottom: 0;}
+
+
+/* 下拉树状图 css */
+.dropDown {
+    width: 359px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    display: inline-block;
+    position: relative;
+}
+.dropDown .selectedBox{
+    position: relative;
+}
+.dropDown .selectedBox .selected {
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+    color: #000;
+    padding: 9px 12px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.dropDown .selectedBox .carat {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    margin-top: -4px;
+    border: 6px solid transparent;
+    border-top: 8px solid #000;
+}
+.dropDown.open .carat {
+    margin-top: -10px;
+    border-top: 6px solid transparent;
+    border-bottom: 8px solid #000;
+}
+.dropDown .dropBox{
+    display: none;
+    position: absolute;
+    top: 31px;
+    left: -1px;
+    z-index: 2;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.dropDown .dropBox .well {
+    min-height: 20px;
+    padding: 10px;
+    margin: 0;
+    background-color: #fff;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.dropDown .dropBox .well li .selectList:hover{
+    color: #ef5f45;
+}
+.dropDown .dropBox .tree-list .icon-plus, .dropDown .dropBox .tree-list .icon-minus, .dropDown .dropBox .tree-list .icon-last {
+    display: block;
+    float: left;
+    height: 19px;
+    margin-right: 10px;
+    width: 19px;
+}
+.dropDown .dropBox .tree-list .icon-minus{
+    background-position: center -27px;
+}
+.dropDown .dropBox .tree-list li{
+    position: relative;
+    padding-left: 22px;
+
+}
+.dropDown .dropBox .tree-list li i{
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+.dropDown .dropBox .tree-list li i.icon-last{
+    position: absolute;
+    top: 2px;
+    left: 1px;
+}
+/**分享框**/
+.sharePopUpBox,.schoolPopUpBox{display: none;width:350px;}
+
+
+.sharePopUpBox .shareContent p,.schoolPopUpBox .schoolContent p{text-align: center;margin-top: 20px;padding:0 10px;}
+.sharePopUpBox .shareContent .BtnGroup,.schoolPopUpBox .schoolContent .BtnGroup{width: 122px;margin:  20px auto;}
+

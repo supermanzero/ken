@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!--<link rel="stylesheet" href="./css/work/yahoo-reset.css"/>-->
+    <!--<link rel="stylesheet" type="text/css" href="http://localhost:9331/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="http://localhost:9331/css/uikit.css">-->
+    <!--<link href="http://localhost:9331/css/modulestyle.css" rel="stylesheet">-->
+    <!--&lt;!&ndash;<link rel="stylesheet" href="./css/work/work-core.css"/>&ndash;&gt;-->
+    <!--<link rel="stylesheet" href="http://localhost:9331/apps/teachdesign/css/personstyle.css"/>-->
+    <!--<link rel="stylesheet" href="http://localhost:63342/work/css/work/work-core.css"/>-->
+
+</head>
+<body>
+    <div class="work-dialog work-lay-dialog">
+        <div class="work-dialog-hd work-lay-dialog-hd">
+            <h3>布置作业</h3>
+            <span class="close nyroModalClose">×</span>
+        </div>
+        <div class="work-dialog-bd work-lay-dialog-bd">
+
+            <ul>
+                <!--<li class="yui3-g">-->
+                    <!--<label class="yui3-u title">作业名字：</label>-->
+                    <!--<input type="text" name="work-name" class="work-name input-text yui3-u"/>-->
+                <!--</li>-->
+                <li class="yui3-g">
+                    <label class="yui3-u title">布置班级：</label>
+                    <div class="img-box yui3-u">
+                        <label>
+                            <img src="http://lorempixel.com/52/52/" alt=""/>
+                            <input type="checkbox" name=""/>
+                        </label>
+                        <p class="ft-12 ft-yahei">初一级棒</p>
+                    </div>
+                    <div class="img-box yui3-u">
+                        <label>
+                            <img src="http://lorempixel.com/52/52/" alt=""/>
+                            <input type="checkbox" name=""/>
+                        </label>
+                        <p class="ft-12 ft-yahei">初一级棒</p>
+                    </div>
+                    <div class="img-box yui3-u">
+                        <label>
+                            <img src="http://lorempixel.com/52/52/" alt=""/>
+                            <input type="checkbox" name=""/>
+                        </label>
+                        <p class="ft-12 ft-yahei">初一级棒</p>
+                    </div>
+                </li>
+                <li class="yui3-g">
+                    <label class="yui3-u title">老师留言：</label>
+                    <textarea name="" id="" cols="30" rows="4" class="textarea"  style="resize:none"></textarea>
+                </li>
+                <li class="yui3-g">
+                    <label class="yui3-u title">作业时间：</label>
+                    <input type="text" name="day" class="yui3-u day-start day" id="day-start"  placeholder="日期"/>
+                    <select name="" class="yui3-u">
+                        <option value="00:00">01:00</option>
+                        <option value="00:00">02:00</option>
+                        <option value="00:00">03:00</option>
+                        <option value="00:00">04:00</option>
+                        <option value="00:00">05:00</option>
+                        <option value="00:00">06:00</option>
+                        <option value="00:00">07:00</option>
+                        <option value="00:00">08:00</option>
+                        <option value="00:00">09:00</option>
+                        <option value="00:00">10:00</option>
+                        <option value="00:00">11:00</option>
+                        <option value="00:00">12:00</option>
+                        <option value="00:00">13:00</option>
+                        <option value="00:00">14:00</option>
+                        <option value="00:00">15:00</option>
+                        <option value="00:00">16:00</option>
+                        <option value="00:00">17:00</option>
+                        <option value="00:00">18:00</option>
+                        <option value="00:00">19:00</option>
+                        <option value="00:00">20:00</option>
+                        <option value="00:00">21:00</option>
+                        <option value="00:00">22:00</option>
+                        <option value="00:00">23:00</option>
+                        <option value="00:00">24:00</option>
+                    </select>
+                    <span class="yui3-u">至</span>
+                    <input type="text" name="day" class="yui3-u day-start day" id="day-end" placeholder="日期"/>
+                    <select name="" class="yui3-u">
+                        <option value="00:00">01:00</option>
+                        <option value="00:00">02:00</option>
+                        <option value="00:00">03:00</option>
+                        <option value="00:00">04:00</option>
+                        <option value="00:00">05:00</option>
+                        <option value="00:00">06:00</option>
+                        <option value="00:00">07:00</option>
+                        <option value="00:00">08:00</option>
+                        <option value="00:00">09:00</option>
+                        <option value="00:00">10:00</option>
+                        <option value="00:00">11:00</option>
+                        <option value="00:00">12:00</option>
+                        <option value="00:00">13:00</option>
+                        <option value="00:00">14:00</option>
+                        <option value="00:00">15:00</option>
+                        <option value="00:00">16:00</option>
+                        <option value="00:00">17:00</option>
+                        <option value="00:00">18:00</option>
+                        <option value="00:00">19:00</option>
+                        <option value="00:00">20:00</option>
+                        <option value="00:00">21:00</option>
+                        <option value="00:00">22:00</option>
+                        <option value="00:00">23:00</option>
+                        <option value="00:00">24:00</option>
+                    </select>
+                </li>
+                <li class="yui3-g">
+                    <label class="yui3-u title"></label>
+                    <input type="submit" name="" class="yui3-u submit cp-button" value="确定"/>
+                    <input type="reset" name="" class="yui3-u submit cp-button nyroModalClose" value="取消"/>
+                    <a href="./work.dialogsuccess.html" class="nyroModal yui3-u">布置成功页面</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--<script src="./js/pikaday.min.js"></script>-->
+    <script>
+        (function(){
+            var day = new Pikaday(
+                    {
+                        field: document.getElementById('day-start'),
+                        firstDay: 1,
+                        minDate: new Date('2014-01-01'),
+                        maxDate: new Date('2030-12-31'),
+                        yearRange: [2000,2030],
+                        onOpen:function(){
+                            console.log("open the day so good")
+                        }
+                    });
+            var day_end=new Pikaday(
+                    {
+                        field: document.getElementById('day-end'),
+                        firstDay: 1,
+                        minDate: new Date('2014-01-01'),
+                        maxDate: new Date('2030-12-31'),
+                        yearRange: [2000,2030]
+                    })
+        })()
+    </script>
+</body>
+</html>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>课堂互动</title>
+    <link rel="stylesheet" href="../../assets/common/css/yahoo-reset.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/uikit.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/base.css"/>
+    <link rel="stylesheet" href="../../assets/grade_information/css/classroom.css"/>
+</head>
+<body>
+<!--user-menu-->
+<div class="user-menu yui3-g">
+    <div class="user-menu-hd yui3-u">
+        <a href="" class="yui3-u easyui-menubutton" data-options="menu:'#user-menu-content'">ASDFSDF<i class="fa fa-caret-down fa-blue fa-3x"></i></a>
+        <div id="user-menu-content" class="menu-content" style="position: absolute;">
+            <div class="user-menu-content-bd">
+                <i class="fa fa-caret-up fa-2x"></i>
+                <ul>
+                    <li>
+                        <a href="../message.html">消息</a>
+                    </li>
+                    <li>
+                        <a href="../bind.html">绑定</a>
+                    </li>
+                    <li>
+                        <a href="../userinfo-set.html">设置</a>
+                    </li>
+                    <li>
+                        <a href="">退出</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--user-menu end-->
+
+<!--cmspages-head-->
+<div class="cmspages-head yui3-g">
+    <div class="cmspages-head-menu yui3-u easyui-menubutton" data-options="menu:'#cmspages-head-menu-content'">
+        <img class="yui3-u" src="../../assets/common/images/icon/48/s02.png" alt=""/>
+        <label class="yui3-u">年级管理</label>
+        <i class="fa fa-angle-down fa-3x"></i>
+    </div>
+    <div id="cmspages-head-menu-content" class="menu-content" style="position: absolute;">
+        <div class="cmspages-head-menut-bd">
+            <i class=""></i>
+            <ul class="yui3-g">
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s01.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s02.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s03.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s04.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="./menu.html"><img src="../../assets/common/images/icon/48/home.png" alt=""/></a>
+                    <p><a href="../menu.html">首页</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--cmspages-head end-->
+
+
+<div class="cmspages">
+    <div class="cmspages-layout yui3-g">
+        <div class="cmspages-content-menu yui3-u">
+            <div class="cmspages-content-menu-bd">
+                <ul>
+                    <li>
+                        <a  href="./attendance_information.html"><i class="fa fa-chevron-circle-right fa-grey fa-2x"></i>考勤记录</a>
+                    </li>
+                    <li>
+                        <a href="./students_questions.html"><i class="fa fa-chevron-circle-right fa-grey fa-2x"></i></i>课堂提问</a>
+                    </li>
+                    <li>
+                        <a class="on" href="./interactions.html"><i class="fa fa-chevron-circle-right fa-grey fa-2x"></i>课堂互动</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cmspages-content yui3-u">
+            <div class="cmspages-space">
+                <div class="moduleBox">
+
+                    <div class="yui3-u topNavBox">
+                        <ul class="classTab">
+                            <li><a class="tab-list on" href="javascript:void(0)">随堂练习</a></li>
+                            <li><a class="tab-list"  href="javascript:void(0)">课堂抢答</a></li>
+                            <li><a class="tab-list"  href="javascript:void(0)">分组讨论</a></li>
+                        </ul>
+                    </div>
+                    <div class="yui3-u fr">
+                        <a class="yui3-u cp-button fr check-class" href="javascript:void(0)">选择查询课堂</a>
+                    </div>
+                    <div class="examPaperContent warpTable">
+                        <div class="examTestList">
+                            <p class="examPaperPic"><span>1</span><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            <div class="stageStyle yui3-u ml10" style="float:left;">
+                                <h4>
+                                    <a class="tagSelect w120" href="javascript:void(0);" val="0"><span class="">小麦</span><i class="fa fa-chevron-down dropIcon"></i></a>
+                                </h4>
+                                <ul class="selectBox clickcon none">
+                                    <li><a class="openHover" href="javascript:void(0)" val="1">张三</a></li>
+                                    <li><a class="openHover" href="javascript:void(0)" val="1">李四</a></li>
+                                    <li><a class="openHover" href="javascript:void(0)" val="1">麦麦</a></li>
+                                </ul>
+
+                            </div>
+                            <div class="answersArea">
+                                <span class="fl rightText">正确答案：D </span>
+                            </div>
+                        </div>
+                        <div class="examTestList examTestListLast">
+                            <p class="examPaperPic"><span>2</span><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            <div class="stageStyle yui3-u ml10" style="float:left;">
+                                <h4>
+                                    <a class="tagSelect w120" href="javascript:void(0);" val="0"><span class="">小麦</span><i class="fa fa-chevron-down dropIcon"></i></a>
+                                </h4>
+                                <ul class="selectBox clickcon none">
+                                    <li><a class="openHover" href="javascript:void(0)" val="1">张三</a></li>
+                                    <li><a class="openHover" href="javascript:void(0)" val="1">李四</a></li>
+                                    <li><a class="openHover" href="javascript:void(0)" val="1">麦麦</a></li>
+                                </ul>
+
+                            </div>
+                            <div class="answersArea">
+                                <span class="fl rightText">正确答案：D </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="examPaperContent warpTable none">
+                        <div class="examTestList">
+                            <p class="examPaperPic"><span>1</span><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            <div class="answersArea f16 ">
+                                <i class="fa fa-trophy mr5"></i><span class="fb wordColor">小麦</span><span class="rightText ml5 wordColor">正确答案：D </span>
+                            </div>
+                        </div>
+                        <div class="examTestList examTestListLast">
+                            <p class="examPaperPic"><span>2</span><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            <div class="answersArea f16 wordColor">
+                                <i class="fa fa-trophy mr5"></i><span class="fb wordColor">小麦</span><span class="rightText ml5 wordColor">正确答案：D </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="examPaperContent warpTable none">
+                        <div class="examTestList">
+                            <p class="examPaperPic"><span>1</span><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            <div class="groupBox">
+                                <ul class="groupTab">
+                                    <li class="on"><a href="javascript:void(0)">第一组</a></li>
+                                    <li><a href="javascript:void(0)">第二组</a></li>
+                                    <li class="lastLi"><a href="javascript:void(0)">第三组</a></li>
+                                </ul>
+                            </div>
+                            <div class="answerBox answerTable">
+                                <p class="studentName"><span>小麦</span><span>麦麦</span><span>张三</span>答案：</p>
+                                <p class="studentAnswer">秦观遇到的问题有阿萨德发啊的舒服啦斯蒂芬李阿三的经费卡拉的双方就拉上看的份煎熬了快速的减肥拉克丝的肌肤啊快乐</p>
+                                <p class="studentImg"><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            </div>
+                            <div class="answerBox answerTable none">
+                                <p class="studentName"><span>麦麦</span><span>张三</span>答案：</p>
+                                <p class="studentAnswer">秦观遇到的问题有阿萨德发啊的舒服啦斯蒂芬李阿三的经费卡拉的双方就拉上看的份煎熬了快速的减肥拉克丝的肌肤啊快乐</p>
+                                <p class="studentImg"><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            </div>
+                            <div class="answerBox answerTable none">
+                                <p class="studentName"><span>张三</span>答案：</p>
+                                <p class="studentAnswer">秦观遇到的问题有阿萨德发啊的舒服啦斯蒂芬李阿三的经费卡拉的双方就拉上看的份煎熬了快速的减肥拉克丝的肌肤啊快乐</p>
+                                <p class="studentImg"><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            </div>
+                        </div>
+                        <div class="examTestList examTestListLast">
+                            <p class="examPaperPic"><span>2</span><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            <div class="groupBox">
+                                <ul class="groupTab_1">
+                                    <li class="on"><a href="javascript:void(0)">第一组</a></li>
+                                    <li><a href="javascript:void(0)">第二组</a></li>
+                                    <li class="lastLi"><a href="javascript:void(0)">第三组</a></li>
+                                </ul>
+                            </div>
+                            <div class="answerBox answerTable_1">
+                                <p class="studentName"><span>小麦</span><span>麦麦</span><span>张三</span>答案：</p>
+                                <p class="studentAnswer">秦观遇到的问题有阿萨德发啊的舒服啦斯蒂芬李阿三的经费卡拉的双方就拉上看的份煎熬了快速的减肥拉克丝的肌肤啊快乐</p>
+                                <p class="studentImg"><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            </div>
+                            <div class="answerBox answerTable_1 none">
+                                <p class="studentName"><span>麦麦</span><span>张三</span>答案：</p>
+                                <p class="studentAnswer">秦观遇到的问题有阿萨德发啊的舒服啦斯蒂芬李阿三的经费卡拉的双方就拉上看的份煎熬了快速的减肥拉克丝的肌肤啊快乐</p>
+                                <p class="studentImg"><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            </div>
+                            <div class="answerBox answerTable_1 none">
+                                <p class="studentName"><span>张三</span>答案：</p>
+                                <p class="studentAnswer">秦观遇到的问题有阿萨德发啊的舒服啦斯蒂芬李阿三的经费卡拉的双方就拉上看的份煎熬了快速的减肥拉克丝的肌肤啊快乐</p>
+                                <p class="studentImg"><img src="../../assets/grade_information/images/test.png" class="imgTimu"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 选择查询课堂 dialog start -->
+<div id="checkClass" class="none">
+    <div class="dialog-box">
+        <div class="dialog-body">
+            <div class="titleTime tc"><a href="#" class="mr20"><i class="fa fa-chevron-left fa-2"></i></a>第4周<a href="#" class="ml20"><i class="fa fa-chevron-right fa-2"></i></a></div>
+            <table class="table table-hover warpTable" style="margin-bottom:0;">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>星期一</th>
+                    <th>星期二</th>
+                    <th>星期三</th>
+                    <th>星期四</th>
+                    <th>星期五</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>语文</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>语文</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>语文</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>语文</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>语文</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>语文</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>语文</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                    <td>英语</td>
+                    <td>数学</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+<!-- 选择查询课堂 dialog end -->
+<!-- 查看原图 dialog start -->
+<div id="checkImg" class="none">
+    <div class="dialog-box">
+        <div class="dialog-body">
+            <p class="imgBox"><img class="imgBig" src="../../assets/grade_information/images/test.png"></p>
+        </div>
+    </div>
+</div>
+<!-- 查看原图 dialog end -->
+<script src="../../assets/common/js/lib/jquery.js"></script>
+<script src="../../assets/common/js/lib/jquery-easyui-1.4.2/easyloader.js"></script>
+<script src="../../assets/common/js/lib/artDialog4/jquery.artDialog.js?skin=default"></script>
+<script>
+    $(function(){
+        /**
+         * 下拉菜单
+         * */
+        var dragBtn = $('.tagSelect');
+        dragBtn.on('click',function(){
+            var thisTop = $(this).parent().parent(),
+                    Obj = $(this);
+            if(Obj.hasClass('open')){
+                thisTop.find('.selectBox').hide();
+                Obj.removeClass('open');
+            }
+            else{
+                Obj.addClass('open');
+                thisTop.find('.selectBox').show().width(thisTop.width() - 2);
+                var select = thisTop.find('.selectBox li a');
+                select.on('click',function(){
+                    var text = $(this).text(),
+                            val = $(this).attr('val');
+                    Obj.find('span').text(text);
+                    Obj.attr('val',val);
+                    thisTop.find('.selectBox').hide();
+                    Obj.removeClass('open');
+                })
+            }
+        });
+
+        $('.check-class').on('click', function(){
+            var $_checkClass = document.getElementById('checkClass');
+            art.dialog({
+                content: $_checkClass,
+                title: '选择查询课堂',
+                width: '700px',
+                lock: true,
+                background: '#000', // 背景色
+                opacity: 0.5,   // 透明度'
+                init: function(){
+                    var $_ExitBtn = $('#exitBnt'),
+                            than = this;
+                    $_ExitBtn.on('click', function(){
+                        than.close();
+                    })
+                }
+            });
+        });
+
+        /*
+         *tabs切换
+         */
+        $('.classTab li').bind('click', function() {
+            $('.warpTable').hide();
+            $('.warpTable').eq($(this).index()).show(function(){
+            });
+            $('.classTab li .tab-list').removeClass('on');
+            $(this).find('.tab-list').addClass('on');
+        });
+
+        $('.groupTab li').bind('click', function() {
+            $('.answerTable').hide();
+            $('.answerTable').eq($(this).index()).show();
+            $('.groupTab li').removeClass('on');
+            $(this).addClass('on');
+        });
+
+        $('.groupTab_1 li').bind('click', function() {
+            $('.answerTable_1').hide();
+            $('.answerTable_1').eq($(this).index()).show();
+            $('.groupTab_1 li').removeClass('on');
+            $(this).addClass('on');
+        });
+
+    })
+</script>
+
+
+</body>
+</html>

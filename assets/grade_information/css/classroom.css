@@ -1,0 +1,125 @@
+@charset "utf-8";
+/**
+*Name:Mai HuaQiu
+*Email:maihuaqiu@dt-edu.cn
+*Date:2015-3-27
+**/
+.cmspages-space{max-width: 960px; min-width: 730px;}
+a:hover {color:#05b7fa;}
+.wordColor{color: #05b7fa;}
+/*=== 侧导航 ===*/
+.header{background: #19c4cf;}
+.leftBar li a{color: #fff;}
+.contentWarp{width:980px;margin: 0 auto;padding:0;}
+/*=== 右内容 ===*/
+.rightContent{width:750px;margin:95px 0 0 230px;}
+.warpBox{margin-bottom:30px;padding: 8px;background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border-left: 1px solid #ededed;border-right:1px solid #ededed;border-bottom:2px solid #ededed;}
+/*=== 班级成员 ===*/
+.memberBox{clear: both}
+.memberLink{width:50px;margin-right: -50px;margin-bottom: 15px;float: left;}
+.memberBorder{border:0;}
+/*=== 标题 ===*/
+.titleClassroom{margin:8px 0 20px;}
+/*=== 内容 start ===*/
+.attendanceBox{width: 100%;}
+
+.attendanceBoxLeft{float: left; display: inline-block; width:260px; margin-top: 40px; margin-right: -260px}
+.memberLinkBox{display: inline-block;}
+.attendance-right{float: right; width: 100%;}
+.attendanceBoxRight{margin-left: 260px; padding-left:15px; border-left:1px solid #ddd;}
+.attendanceBoxList{padding-bottom:10px;margin-top:10px;border-bottom:1px dashed #d0d0d0}
+.attendanceLast{border: 0}
+.boxRightWarp{}
+.boxRightList{display: inline-block;margin-bottom: 10px;}
+.boxRightWord{max-width:570px;display: inline-block;font-size: 1.2em; margin-left: 65px;}
+
+.titleTime{margin-bottom:10px;font-size: 1.5em;color:#7DDAFC;}
+.titleTime i{color:#7DDAFC;}
+.titleTime .fa-2 {font-size: 1.3em;}
+.titleTime .fa-3 {font-size: 4em;}
+.titleTime .fa-4 {font-size: 7em;}
+.titleTime .fa-4 {font-size: 7em;}
+.titleTime .fa-5 {font-size: 12em;}
+.titleTime .fa-6 {font-size: 20em;}
+/*=== 内容 end ===*/
+.warpTable thead{background:#f2f2f2;}
+.textComment {width: 560px;padding: 8px;border: 1px solid #d0d0d0;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 1px 0 rgba(255, 255, 255, 0.075);color: #bebdbd;font-size: 14px;height: 20px;line-height: 20px;margin: 10px 0;outline: medium none;overflow: hidden;resize: none;word-wrap: break-word;}
+.dialogBut{display: inline-block;width:578px;}
+.navTitle{cursor: pointer;}
+/*=== 学生提问 ===*/
+.questionWord{float: left; margin-left: 65px;}
+.questionList{float: left; width: 100%; margin-bottom: 15px;border-bottom:1px dashed #d0d0d0;}
+.questionListLast{border:0;}
+.questionWord .imgTimu{width:50%;display: inline-block;margin-top: 10px;}
+/*=== tab ===*/
+
+.widthSub{width:350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.classBox{height:50px;width:962px;}
+
+/*=== 随堂练习 ===*/
+.examPaperContent {width: 730px;}
+.examPaperPic span {width: 21px;background:#05b7fa;float: left;color: #fff;text-align: center;font-size:1.2em}
+.examPaperPic {overflow: hidden;width: 654px;padding: 10px;float: left;}
+.examPaperPic .imgTimu {width: 93%;}
+.examTestList{width:100%;padding-bottom:15px;margin-bottom:15px;border-bottom:1px dashed #d0d0d0;display: inline-block;}
+.examTestListLast{border-bottom: 0}
+.imgBox{text-align: center;}
+.imgBig{width:90%; }
+.imgBut{line-height: 28px;}
+.check-img{color:#42b6be }
+.answersArea {margin-left:15px;line-height:30px;float: left;overflow: hidden;font-size: 13px;}
+.fa-trophy{color: #f1b002;}
+/*=== 分组讨论 ===*/
+.groupBox{display: inline-block;width: 665px;padding: 10px 0;margin-left: 32px;border-top: 1px solid #f0f0f0;}
+.groupTab{}
+.groupTab li{float: left;padding-right:15px;margin-right: 15px;border-right:1px solid #d1d1d1;cursor: pointer;font-size: 1.2em}
+.groupTab .on a{color: #05b7fa;font-weight: bold;}
+.groupTab .lastLi{border-right: 0;}
+.answerBox{width:665px;padding: 10px 0 0;margin-left: 32px;border-top: 1px dashed #d0d0d0;}
+.studentName{font-size: 1.2em;}
+.studentName span{margin-right:5px; color: #05b7fa;}
+.studentAnswer{font-size: 1.2em;margin-bottom: 10px;}
+.studentImg{}
+.studentImg .imgTimu{width: 93%;}
+.cp-button:hover{color: #fff;}
+.question-msg{display: block;}
+.question-body{float: left; width: 100%;}
+
+.topNavBox{margin-bottom: 10px;}
+.topNavBox ul{display: inline-block;}
+.topNavBox ul li{display: inline-block;margin-right:10px;}
+.topNavBox ul li a{padding:0 5px;font-size: 1.1em;}
+.topNavBox ul li a.on{border-bottom: 2px solid #05b7fa;color: #05b7fa;}
+.topNavBox ul li a:hover{color: #05b7fa;}
+.groupTab_1 li{float: left;padding-right:15px;margin-right: 15px;border-right:1px solid #d1d1d1;cursor: pointer;font-size: 1.2em}
+.groupTab_1 .on a{color: #05b7fa;font-weight: bold;}
+.groupTab_1 .lastLi{border-right: 0;}
+.nav-heading{margin-bottom: 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

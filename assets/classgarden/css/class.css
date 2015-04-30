@@ -1,0 +1,61 @@
+@charset "utf-8";
+/**
+*Name:Mai HuaQiu
+*Email:maihuaqiu@dt-edu.cn
+*Date:2015-4-1
+**/
+/*=== 侧导航 ===*/
+body{font-family: Arial, "Microsoft YaHei", "微软雅黑", sans-serif!important;}
+.header{background: #19c4cf;}
+/*=== 学科导航 ===*/
+.top-nav-box{margin-bottom: 10px;}
+.top-nav-box ul{height:60px;}
+.top-nav-box li{display: inline-block;margin-right:10px;}
+.top-nav-box a{padding:0 5px;font-size: 1.1em;}
+.top-nav-box a.active{border-bottom: 2px solid #05b7fa;color: #05b7fa;}
+.work-box{max-width:960px;margin-bottom:15px;padding-bottom: 15px;border-bottom: 1px dashed #d0d0d0;}
+.work-box .user-pic{width:120px;}
+.work-box .user-pic img{vertical-align: top;}
+.work-box .user-pic a.img{display: block;width:50px;overflow: hidden;}
+.work-box .user-pic p{text-align:center;}
+.work-box .user-pic p a{font-size:0.8em;}
+.detailed-box{width:665px;}
+.detailed-boxHd{width:100%;display: inline-block;}
+.detailed-boxHd h3{display: inline;font-weight:bold;}
+.detailed-boxHd h3 a{font-size: 16px;}
+.detailed-boxNum{margin-left:15px;font-size:1.1em;color:#999;font-weight:normal;}
+.detailed-boxTip{display: inline;float: right;font-size:1.1em;}
+.detailed-boxTime{color: #ff6666;}
+.detailed-boxBd {margin-bottom: 8px;font-size: 0.8em;color: #666;text-indent: 26px;}
+.detailed-boxFt {position: relative;}
+.detailed-boxFt p{font-size: 1.1em;}
+.detailed-boxFt p span {margin: 0 20px 0 0;color: #999;}
+.detailed-boxFt .button-box {position: absolute;top: 0;right: 0;font-size:0.8em;text-align: right;}
+.detailed-boxFt .button-box a i{margin-right: 5px;color:#05b7fa;height: 20px;line-height: 20px;}
+.button-box .delect,.button-box .down,.button-box .talk{margin-left:20px;font-size: 1.1em;}
+.lastwork-box{border: 0}
+.close-box{background:#333;filter:alpha(opacity=50);opacity:0.5;}
+/*==== 回复 ===*/
+.reply-mod{position: relative;margin-top:20px;padding: 0 0 20px;background: #F5F5F5;border: 1px solid #D9D9D9;}
+.talk-form{margin:20px 20px 0;padding: 0;display: block;text-align: right}
+.say-text,.file-box .say-text{display: block;width:98%;height: 38px;padding: 5px;border:2px solid #ddd;resize: none;outline: none;font-size: 1.1em;}
+.file-box .say-text{font-size: 1.2em}
+.classgardenBox .talk-form .classgardenButton {margin-top: 10px;}
+.classgardenBox .classgardenButton {background: none repeat scroll 0 0 #59dda3;border: 1px solid #56c695;}
+.reply-mod .listBox{margin:0 20px;font-size: 0.9em;}
+.reply-mod .textBox{margin-top:10px;border-bottom: 1px solid #ddd;}
+.reply-mod .timeBox{height:32px;line-height:32px;}
+.reply-mod .textBoxName{color: #05b7fa;}
+.reply-mod .textBoxName:hover{color: #05b7fa;text-decoration: underline;}
+.reply-mod .lastTextBox{border: 0}
+/*=== 加载更多 ===*/
+.load-box {margin: 10px 0;padding:5px 0;background:#f3f3f3;border: 1px solid #e0e0e0;cursor: pointer;text-align: center;font-size: 1.1em;letter-spacing:0;max-width: 960px;}
+.load-box span{font-size: 0.9em;}
+.paginator {overflow: hidden;text-align: center;}
+/*=== 班级成员 ===*/
+.memberBox{clear: both}
+.memberLink{width:50px;margin-right: 15px;margin-bottom: 15px;float: left;}
+.memberBorder{border:0;clear:both;}
+.headerBox{width:50px;}
+.reply-mod{display: none;}
+

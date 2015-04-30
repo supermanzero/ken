@@ -1,0 +1,339 @@
+.cmspages-space{
+    max-width: 960px;
+}
+.sideNavBox{margin-top: 45px;}
+.grade-box{
+    padding: 30px 20px 20px 20px;
+    border-bottom: solid 1px #eee;
+}
+.class-items .items-list{
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 126px;
+    margin-top: 20px;
+}
+.class-items .items-list img{
+    border-radius: 5px;
+}
+.class-items .items-list .name{
+    font-size: 14px;
+}
+.class-items .items-list .add-class{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url("../images/addIcon.png") no-repeat scroll;
+    cursor: pointer;
+}
+.grade-heading{
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+}
+.grade-heading .del-grade{
+    display: none;
+    margin-left: 5px;
+}
+.grade-heading:hover .del-grade{
+    display: inline-block;
+}
+.class-items .items-list .del-class{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: -16px;
+}
+.class-items .items-list .class-avatar:hover .del-class{
+    display: inline-block;
+}
+#addClass .dialog-box{
+    width: 100%;
+    text-align: center;
+}
+#addClass .dialog-box p{font-size: 14px;}
+#addClass .dialog-box .class-name{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+#addGrade .grade-info{
+    height: 38px;
+    line-height: 38px;
+}
+#addGrade .grade-name{
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 15px;
+}
+#addGrade .err-tips{
+    position: relative;
+    top: -3px;
+    color: #e70505;
+}
+.topNav{
+    margin-bottom: 0;
+}
+.topNav ul{
+    display: inline-block;
+}
+#addTeacher .dialog-box{
+    width: 100%;
+    text-align: center;
+}
+#addTeacher .dialog-box input.input-text{
+    width: 180px;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 1px 0 rgba(255, 255, 255, 0.075);
+}
+#addTeacher .dialog-box input.input-text:focus, #addTeacher .dialog-box input.input-text:after, #addTeacher .dialog-box input.input-text:active{
+    border: 1px solid #ddd;
+    box-shadow:none;
+}
+.add-teacher-form ul li{
+    float: left;
+}
+#addTeacher .stageStyle {
+    width: 200px;
+}
+#addTeacher .stageStyle .tagSelect{
+    width: 185px;
+    padding-left: 10px;
+}
+
+#addTeacher .stageStyle .selectBox{
+    width: 180px;
+}
+#addTeacher .stageStyle .selectBox li a{
+    width: 190px;
+}
+#addTeacher .input-label{
+    margin-top: 6px;
+}
+.class-info-box{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+.class-info-box .info-left{
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.class-info-box .info-left .tips{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+.class-info-box .info-left .tips .msg{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+.class-info-box .info-left:hover .tips{
+    display: block;
+}
+.class-info-box .info-left img{
+    border-radius: 5px;
+    cursor: pointer;
+}
+.class-info-box .info-right{
+    padding: 10px 0 0 110px;
+}
+.class-info-box .info-right p{
+    line-height: 28px;
+    font-size: 14px;
+}
+.class-info-box .info-right .editTeacher, .class-info-box .info-right .bbs .editBBS{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    padding: 0 5px;
+    margin: 2px 0 0 5px;
+    height: 20px;
+    line-height: 20px;
+}
+.class-info-box .info-right .bbs .editBBS{
+    top: 0;
+    display: none;
+}
+.class-info-box .info-right .bbs:hover .editBBS{
+    display: inline-block;
+}
+.class-info-box .bbs{
+    margin-top: 3px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.class-info-box .bbs .bbs-info{
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    font-size: 14px;
+    max-width: 680px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.class-info-box .bbs .textarea-form{
+    width: 700px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    resize: none;
+}
+.class-info-box .bbs .saveBBS{
+    margin-left: 10px;
+}
+.student-box{
+    padding: 30px 20px 20px 20px;
+    border-bottom: solid 1px #eee;
+}
+.student-box .class-items .items-list{
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 70px;
+    margin-top: 20px;
+}
+.student-box .class-items .items-list img{
+    border-radius: 5px;
+}
+.student-box .class-items .items-list .name{
+    font-size: 14px;
+}
+.teacher-box{
+    padding: 30px 20px 20px 20px;
+    border-bottom: solid 1px #eee;
+}
+.teacher-box .class-items .items-list{
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 70px;
+    margin-top: 20px;
+}
+.teacher-box .class-items .items-list img{
+    border-radius: 5px;
+}
+.teacher-box .class-items .items-list .name{
+    font-size: 14px;
+}
+.teacher-box .class-items .items-list .add-class{
+    display: inline-block;
+    width: 51px;
+    height: 50px;
+    background: url("../images/addIcon_04.png") no-repeat scroll;
+    cursor: pointer;
+}
+#addClassTeacher .add-teacher-left{
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+}
+#addClassTeacher .mine-select, #addGrade .mine-select{
+    display: inline-block;
+}
+#addClassTeacher .stageStyle {
+    width: 90px;
+}
+#addClassTeacher .stageStyle .tagSelect{
+    width: 75px;
+    padding-left: 10px;
+}
+#addClassTeacher .stageStyle .selectBox li a{
+    width: 80px;
+}
+#addClassTeacher .pending-constituency, #addClassTeacher .Selected-box{
+    width: 200px;
+    height: 260px;
+    border: solid 2px #eee;
+    background: #fdfdfd;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#addClassTeacher .pending-constituency .teacher-items .teacher-list, #addClassTeacher .Selected-box .teacher-items .teacher-list{
+    width: 190px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+}
+#addClassTeacher .pending-constituency .teacher-items .teacher-list:hover, #addClassTeacher .Selected-box .teacher-items .teacher-list:hover{
+    background-color: #7DDAFC;
+    color: #fff;
+}
+#addClassTeacher  .exchange-box{
+    display: inline-block;
+    float: left;
+    padding: 160px 20px 0 20px;
+    color: #ccc;
+    font-size: 20px;
+}
+#addClassTeacher .choose-heading{
+    padding-top: 25px;
+    font-size: 14px;
+    color: #666;
+}
+#addClassTeache .dialog-footer{
+    text-align: center;
+}
+#setClassTeacher .teacher-items .items-list{
+    float: left;
+    width: 100px;
+    padding-top: 15px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+ #setClassTeacher .teacher-items .items-list.current{
+    background: url("../images/setTeacher_bg.png") repeat scroll;
+}
+#setClassTeacher .teacher-items .items-list img{
+    border-radius: 4px;
+}
+#setClassTeacher .dialog-heading-title{
+    font-size: 16px;
+    text-align: center;
+}
+#uploadAvatar #upload_avatar{
+    margin: 0 auto;
+}
+#uploadAvatar .pic-box{
+    text-align: center;
+}
+#uploadAvatar .pic-box img{
+    border-radius: 5px;
+}
+.class-heading{
+    font-size: 16px;
+}
+.selectBox li a{
+    text-align: left;
+}
+
+.topNavBox{margin-bottom: 10px;}
+.topNavBox ul{display: inline-block; height:60px;}
+.topNavBox ul li{display: inline-block;margin-right:10px;}
+.topNavBox ul li a{padding:0 5px;font-size: 1.1em;}
+.topNavBox ul li a.active{border-bottom: 2px solid #05b7fa;color: #05b7fa;}
+.topNavBox .addTeacher{font-size: 14px;}
+.topNavBox ul li a:hover{color: #05b7fa;}

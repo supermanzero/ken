@@ -1,0 +1,224 @@
+/* 用户信息设置等页面与个人中心 */
+
+/*cmspages-space*/
+.cmspages-space-hd{
+    position: relative;
+    margin-bottom: 20px;
+}
+.cmspages-space-hd .search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 225px;
+}
+.cmspages-space-hd .search-input{
+    width: 150px;
+    height: 28px;
+    line-height: 28px;
+    border: 0;
+    padding: 0 5px;
+    /*background: #F0F0F0;*/
+    border: 1px solid #ddd;
+    outline: none;
+}
+.cmspages-space-hd .search-button{
+    cursor: pointer;
+    width: 40px;
+    padding: 0;
+    height: 30px;
+    border: 0;
+    margin-left: 5px;
+    font-family: Microsoft YaHei, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.cmspages-space-bd{
+    /*margin-top: 20px;*/
+}
+.cmspages-space-content-list td{
+    padding: 15px;
+}
+.cmspages-space-content-list thead a{
+    margin: 0 0 0 10px;
+}
+.cmspages-space-content-list thead td{
+    border-bottom: 1px solid #ddd;
+}
+.cmspages-space-content-list thead label{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.cmspages-space-content-list thead label input{
+    vertical-align: -2px;
+    margin: 0 10px 0 0;
+}
+.cmspages-space-content-list tbody td{
+    border-bottom: 1px dashed #ddd;
+    color: #666;
+}
+.cmspages-space-content-list tbody td label input{
+    margin: 0 10px 0 0;
+}
+.cmspages-space-content-list tbody td i.fa{
+    margin: 0 5px;
+}
+.cmspages-space-content-large-hd{
+    text-align: right;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.cmspages-space-content-large-hd a{
+    margin: 0 0 0 8px;
+}
+.cmspages-space-content-large-bd li{
+    position: relative;
+    height: 140px;
+    overflow: hidden;
+    margin:10px 20px 10px 0;
+}
+.cmspages-space-content-large-bd{
+    padding: 10px 0;
+}
+.cmspages-space-content-large-bd li .down{
+    position: absolute;
+    bottom: -38px;
+    left: 0;
+    width: 100%;
+    height: 18px;
+    background: #fff;
+    padding: 10px 0;
+    opacity: .0;
+    filter: alpha(opacity=0);
+    text-align: right;
+}
+.cmspages-space-content-large-bd li .down a{
+    margin: 0 10px 0 0;
+}
+/*cmspages-space end*/
+
+/*cmspages-message*/
+.cmspages-message{
+    width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+}
+.cmspages-message-list li{
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.cmspages-message-list .img a{
+    display: block;
+    width: 68px;
+    height: 68px;
+    border: 1px solid #ddd;
+}
+.cmspages-message-list .message-info{
+    width: 570px;
+    padding:  0 0 0 20px;
+}
+.cmspages-message-list .message-info h3 a{
+    font-size: 16px;
+}
+.cmspages-message-list .message-info h3,.cmspages-message-list .message-info p{
+    padding: 5px 0;
+}
+.cmspages-message-list .message-info p,.cmspages-message-list .message-info p a{
+    font-size: 14px;
+}
+/*cmspages-message end*/
+
+/*cmspages-bind*/
+.cmspage-bind-hd{
+    line-height: 30px;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+.cmspage-bind-hd p{
+    margin: 0 0 0 20px;
+}
+.cmspages-bind-list .message-info{
+    width: 470px;
+}
+.cmspages-bind-list .cmspages-bind-btnbox{
+    width: 100px;
+    text-align: right;
+}
+/*cmspages-bind end*/
+
+
+.cmspages-userinfo-bd li{
+    padding: 10px 0;
+}
+.cmspages-userinfo-bd label.tle{
+    width: 100px;
+    height: 30px;
+    padding-right: 20px;
+    line-height: 30px;
+    text-align: right;
+}
+.cmspages-userinfo-bd input.text{
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid #ddd;;
+}
+.cmspages-userinfo-bd input.radio{
+    margin: 10px 20px 0 10px;
+}
+.cmspages-userinfo-bd label,.cmspages-userinfo-bd p{
+    line-height: 30px;
+}
+.cmspages-userinfo-bd select{
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 0 10px 0 0;
+}
+.cmspages-userinfo-bd textarea{
+    border: 1px solid #ddd;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    resize: none;
+}
+.cmspages-userinfo-bd .user-img-link{
+    display: block;
+    width: 68px;
+    height: 68px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+fieldset.account-fieldset{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 20px;
+}
+fieldset.account-fieldset legend{
+    font-size: 14px;
+    font-family: Microsoft YaHei, Helvetica, Arial, sans-serif;
+    color: #666;
+}
+
+.cmspages-safe-bind-bd{
+    padding: 20px;
+}
+.cmspages-safe-bind-bd .text{
+    padding: 0 20px;
+}
+.cmspages-safe-bind-bd .text p{
+    padding: 20px 0;
+}
+.cmspages-safe-bind-bd .text a.cp-button{
+    margin: 0 10px 10px 0;
+}
+.cmspages-dialog-bind-verify{
+    padding-top: 15px;
+}
+.cmspages-dialog-bind-verify input.verifycode{
+    width: 90px;
+}
+.cmspages-dialog-bind-verify .verifycode-button{
+    margin: 1px 0 0 10px;
+}

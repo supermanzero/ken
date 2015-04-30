@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="../../assets/common/css/yahoo-reset.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/dialog.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/base.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/style.css"/>
+</head>
+<body>
+<!--user-menu-->
+    <div class="user-menu yui3-g">
+        <div class="user-menu-hd yui3-u">
+            <a href="" class="yui3-u easyui-menubutton" data-options="menu:'#user-menu-content'">ASDFSDF<i class="fa fa-caret-down fa-blue fa-3x"></i></a>
+            <div id="user-menu-content" class="menu-content" style="position: absolute;">
+                <div class="user-menu-content-bd">
+                    <i class="fa fa-caret-up fa-2x"></i>
+                    <ul>
+                        <li>
+                            <a href="../accountSettings/message.html">消息</a>
+                        </li>
+                        <li>
+                            <a href="../accountSettings/bind.html">绑定</a>
+                        </li>
+                        <li>
+                            <a href="../accountSettings/userinfo-set.html">设置</a>
+                        </li>
+                        <li>
+                            <a href="">退出</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--user-menu end-->
+
+<!--cmspages-head-->
+    <div class="cmspages-head yui3-g">
+        <div class="cmspages-head-menu yui3-u easyui-menubutton" data-options="menu:'#cmspages-head-menu-content'">
+            <img class="yui3-u" src="../../assets/common/images/icon/48/s02.png" alt=""/>
+            <label class="yui3-u">个人空间</label>
+            <i class="fa fa-angle-down fa-3x"></i>
+        </div>
+        <div id="cmspages-head-menu-content" class="menu-content" style="position: absolute;">
+            <div class="cmspages-head-menut-bd">
+                <i class=""></i>
+                <ul class="yui3-g">
+                    <li class="yui3-u">
+                        <a href=""><img src="../../assets/common/images/icon/48/s01.png" alt=""/></a>
+                        <p><a href="">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href=""><img src="../../assets/common/images/icon/48/s02.png" alt=""/></a>
+                        <p><a href="">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href=""><img src="../../assets/common/images/icon/48/s03.png" alt=""/></a>
+                        <p><a href="">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href=""><img src="../../assets/common/images/icon/48/s04.png" alt=""/></a>
+                        <p><a href="">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href="../home/menu.html"><img src="../../assets/common/images/icon/48/home.png" alt=""/></a>
+                        <p><a href="../home/menu.html">首页</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!--cmspages-head end-->
+
+
+<div class="cmspages">
+    <div class="cmspages-layout yui3-g">
+        <div class="cmspages-content-menu yui3-u">
+            <div class="cmspages-content-menu-bd">
+                <ul>
+                    <li>
+                        <a class="" href="javascript:void(0)"><i class="fa fa-folder fa-grey fa-2x"></i>全部文件</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><i class="fa fa-file-word-o fa-grey fa-2x"></i>课件</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><i class="fa fa-leanpub fa-grey fa-2x"></i>教学设计</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><i class="fa fa-file-text fa-grey fa-2x"></i>文档</a>
+                    </li>
+                    <li>
+                        <a class="on" href="javascript:void(0)"><i class="fa fa-picture-o fa-grey fa-2x"></i>图片</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><i class="fa fa-youtube-play fa-grey fa-2x"></i>动画</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><i class="fa fa-video-camera fa-grey fa-2x"></i>视频</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><i class="fa fa-music fa-grey fa-2x"></i>音频</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><i class="fa fa-file-text fa-grey fa-2x"></i>文本</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><i class="fa fa-cube fa-grey fa-2x"></i>其他</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><i class="fa fa-trash-o fa-grey fa-2x"></i>回收站</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cmspages-content yui3-u">
+            <div class="cmspages-space">
+                <div class="cmspages-space-hd">
+                    <button class="cp-button">上传文件</button>
+                    <div class="search yui3-g">
+                        <input type="text" class="yui3-u search-input"/>
+                        <input type="submit" name="search" class="yui3-u cp-button search-button" value="Go"/>
+                    </div>
+                </div>
+                <div class="cmspages-space-bd">
+                    <div style="display: none" class="cmspages-space-content-list">
+                        <table border="0">
+                            <thead>
+                                <tr>
+                                    <td colspan="2">
+                                        <label class=""><input type="checkbox" name="select-all" class="yui3-u"/>全选</label>
+                                        <a class="" href=""><i class="fa fa-cloud-download fa-1x fa-blue"></i></a>
+                                        <a class="" href=""><i class="fa fa-times fa-1x fa-green"></i></a>
+                                    </td>
+                                    <td align="right">
+                                        <a href="../personalSpace/spance-list.html"><i class="fa fa-list fa-1x fa-grey"></i></a>
+                                        <a href=""><i class="fa fa-th-large fa-1x fa-grey"></i></a>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="width: 30%;">
+                                        <label>
+                                            <input type="checkbox" name="checkbox" class=""/>
+                                            文件名文件名
+                                        </label>
+                                    </td>
+                                    <td style="width: 30%;">
+                                        2015-05-05
+                                    </td>
+                                    <td align="right" style="width: 40%;">
+                                        <a class="" href=""><i class="fa fa-cloud-download fa-1x fa-blue"></i></a>
+                                        <a class="" href=""><i class="fa fa-times fa-1x fa-green"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 30%;">
+                                        <label>
+                                            <input type="checkbox" name="checkbox" class=""/>
+                                            文件名文件名
+                                        </label>
+                                    </td>
+                                    <td style="width: 30%;">
+                                        2015-05-05
+                                    </td>
+                                    <td align="right" style="width: 40%;">
+                                        <a class="" href=""><i class="fa fa-cloud-download fa-1x fa-blue"></i></a>
+                                        <a class="" href=""><i class="fa fa-times fa-1x fa-green"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 30%;">
+                                        <label>
+                                            <input type="checkbox" name="checkbox" class=""/>
+                                            文件名文件名
+                                        </label>
+                                    </td>
+                                    <td style="width: 30%;">
+                                        2015-05-05
+                                    </td>
+                                    <td align="right" style="width: 40%;">
+                                        <a class="" href=""><i class="fa fa-cloud-download fa-1x fa-blue"></i></a>
+                                        <a class="" href=""><i class="fa fa-times fa-1x fa-green"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cmspages-space-content-large">
+                        <div class="cmspages-space-content-large-hd">
+                            <a href="../personalSpace/spance-list.html"><i class="fa fa-list fa-1x fa-grey"></i></a>
+                            <a href=""><i class="fa fa-th-large fa-1x fa-grey"></i></a>
+                        </div>
+                        <div class="cmspages-space-content-large-bd">
+                            <ul class="yui3-g">
+                                <li class="yui3-u">
+                                    <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal"><img src="../../assets/common/images/pic.jpg" alt=""/></a>
+                                    <div class="down" style="bottom: -38px; opacity: 0;">
+                                        <a class="" href="" title="下载"><i class="fa fa-cloud-download fa-1x fa-blue"></i></a>
+                                        <a class="" href="" title="删除"><i class="fa fa-times fa-1x fa-green"></i></a>
+                                    </div>
+                                </li>
+                                <li class="yui3-u">
+                                    <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal"><img src="../../assets/common/images/pic.jpg" alt=""/></a>
+                                    <div class="down" style="bottom: -38px; opacity: 0;">
+                                        <a class="" href="" title="下载"><i class="fa fa-cloud-download fa-1x fa-blue"></i></a>
+                                        <a class="" href="" title="删除"><i class="fa fa-times fa-1x fa-green"></i></a>
+                                    </div>
+                                </li>
+                                <li class="yui3-u">
+                                    <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal"><img src="../../assets/common/images/pic.jpg" alt=""/></a>
+                                    <div class="down" style="bottom: -38px; opacity: 0;">
+                                        <a class="" href="" title="下载"><i class="fa fa-cloud-download fa-1x fa-blue"></i></a>
+                                        <a class="" href="" title="删除"><i class="fa fa-times fa-1x fa-green"></i></a>
+                                    </div>
+                                </li>
+                                <li class="yui3-u">
+                                    <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal"><img src="../../assets/common/images/pic.jpg" alt=""/></a>
+                                    <div class="down" style="bottom: -38px; opacity: 0;">
+                                        <a class="" href="" title="下载"><i class="fa fa-cloud-download fa-1x fa-blue"></i></a>
+                                        <a class="" href="" title="删除"><i class="fa fa-times fa-1x fa-green"></i></a>
+                                    </div>
+                                </li>
+                                <li class="yui3-u">
+                                    <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal"><img src="../../assets/common/images/pic.jpg" alt=""/></a>
+                                    <div class="down" style="bottom: -38px; opacity: 0;">
+                                        <a class="" href="" title="下载"><i class="fa fa-cloud-download fa-1x fa-blue"></i></a>
+                                        <a class="" href="" title="删除"><i class="fa fa-times fa-1x fa-green"></i></a>
+                                    </div>
+                                </li>
+                                <li class="yui3-u">
+                                    <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal"><img src="../../assets/common/images/pic.jpg" alt=""/></a>
+                                    <div class="down" style="bottom: -38px; opacity: 0;">
+                                        <a class="" href="" title="下载"><i class="fa fa-cloud-download fa-1x fa-blue"></i></a>
+                                        <a class="" href="" title="删除"><i class="fa fa-times fa-1x fa-green"></i></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <a href=""><</a>
+                <a  class="on" href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <a href="">5</a>
+                <a href="">></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="../../assets/common/js/lib/jquery.js"></script>
+<script src="../../assets/common/js/require.js"></script>
+<script>
+    require(["easyui/easyloader","lib/dialog","core/public"], function(easyloader,dialog,public) {
+        public.space()
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+.head,.contant,.footer{
+    display: none;
+}
+body{
+    background: #fff;
+}
+.update-browser{
+    display: block;
+}
+.update-browser h2{
+
+}
+.browsers-logo {
+    float: left;
+    width: auto;
+    border: 2px solid #d9d9d9;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    margin-left:10px;
+}
+.browsers-logo-lnk {
+    display: block;
+    width: 176px;
+    height: 176px;
+    background-image: url(../images/browsers-page.png);
+    background-position: center 30px;
+    background-repeat: no-repeat;
+    position:relative;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    overflow:hidden;
+}
+.firefox .browsers-logo-lnk {
+    background-position: 0 -69px;
+}
+.chrome .browsers-logo-lnk {
+    background-position: -190px -69px;
+}
+.opera .browsers-logo-lnk {
+    background-position: -380px -69px;
+}
+span.browsers-update {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-size: 11px;
+    line-height: 19px;
+    height: 20px;
+    padding: 0 5px;
+    display: block;
+    background-color: #D22400;
+    color: white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: none;
+}
+.browsers-logo-lnk:hover .browsers-update {
+    display: block;
+}
+.browsers-recommendations {
+    position: absolute;
+    display: block;
+    bottom: 2px;
+    right: 2px;
+    font-size: 11px;
+    line-height: 19px;
+    height: 20px;
+    padding: 0 5px;
+    display: block;
+    background-color: #7BB328;
+    color: white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.browsers-recommendations.supported {
+    background-color: #FFBC00;
+}
+.browsers-recommendations.partial-support {
+    background-color: #b2b2b2;
+}
+.browsers-logo.first-child {
+    margin: 0;
+}
+.safari .browsers-logo-lnk {
+    background-image: url(../images/browsers-page.png);
+    background-position: -570px -69px;
+    background-repeat: no-repeat;
+}
+.ie .browsers-logo-lnk {
+    background-image: url(../images/browsers-page.png);
+    background-position: -764px -69px;
+    background-repeat: no-repeat;
+}
+.browsers-bottom {
+    position: absolute;
+    bottom: 0;
+    height: 43px;
+    width: 940px;
+    left: 50%;
+    margin-left: -470px;
+}
+
+.nw-bottom-copyrigths {
+    font-size: 12px;
+    color: #333333;
+    line-height: 21px;
+    padding: 10px 0 10px 20px;
+    /*background-image: url(https://eu.static.mega.co.nz/images/mega/bottom-sprite-ie6.png);*/
+    background-repeat: no-repeat;
+    background-position: left -207px;
+    float: left;
+}
+.nw-bottom-copyrigths span {
+    color: #666666;
+    padding-left: 5px;
+}
+.nw-bottom-social {
+    width: 26px;
+    height: 26px;
+    float: right;
+    /*background-image: url(https://eu.static.mega.co.nz/images/mega/bottom-sprite-ie6.png);*/
+    background-repeat: no-repeat;
+    background-position: -46px -277px;
+    margin: 7px 0 0 17px;
+    display: block;
+    cursor: pointer;
+}
+.nw-bottom-social:hover {
+    background-position: -46px -317px;
+}
+.nw-bottom-social.twitter {
+    background-position: -2px -277px;
+}
+.nw-bottom-social.twitter:hover {
+    background-position: -2px -317px;
+}

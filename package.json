@@ -1,0 +1,10 @@
+{
+    "name": "grunt-test",
+    "version": "0.1.0",
+    "devDependencies": {
+        "grunt": "~0.4.0",
+        "grunt-contrib-requirejs": "*",
+        "grunt-contrib-cssmin": "*",
+        "grunt-contrib-concat": "*"
+    }
+}

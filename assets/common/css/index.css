@@ -1,0 +1,255 @@
+/** sprite: index; sprite-image: url('../images/sprite/index-sprite.png'); */
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #F0F0F0;
+}
+body,td,th{
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+img{
+    vertical-align: top;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background: #7DDAFC;
+    border-bottom: 1px solid #fff;
+}
+.head-bd{
+    position: relative;
+    width: 1070px;
+    height: 100px;
+    margin: auto;
+}
+.logo{
+    padding-top: 18px;
+}
+.logo a{
+    display: block;
+    width: 344px;
+    height: 63px;
+    text-indent: -9999px;
+    background: url("../images/index/logo-blue.gif") no-repeat;
+}
+.login-regis{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    background: #fff;
+    text-align: center;
+    opacity:.7;
+    filter:alpha(opacity=70);
+}
+.login-regis a{
+    margin: 0 10px;
+    color: #666;
+}
+.head-bd .bk{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 218px;
+    height: 45px;
+    background: url("../images/index/headtext.png") no-repeat;
+}
+
+.contant{
+    margin-top: 50px;
+}
+.contant-menu{
+    width: 1084px;
+    margin: auto;
+}
+.contant-menu li{
+    padding:8px;
+}
+.contant-menu li a{
+    position: relative;
+    display: block;
+}
+.contant-menu li .hoverimg{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.contant-menu li .on .hoverimg{
+    display: block;
+}
+.contant-menu li .teach{
+    position: relative;
+    width: 255px;
+    height: 260px;
+    background: url("../images/index/s04.png") no-repeat;
+    overflow: hidden;
+}
+.contant-menu li .teach .txt{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+.contant-menu li .teach a{
+    display: block;
+    width: 98%;
+    height: 99%;
+    overflow: hidden;
+}
+.contant-menu li .teach a img {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.contant-menu li .ebook{
+    position: relative;
+    width: 498px;
+    height: 239px;
+    padding: 10px 14px 11px;
+    overflow: hidden;
+    background: url("../images/index/s02Bk.png") no-repeat;
+}
+.contant-menu li .ebook .txt{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 9;
+}
+.contant-menu li .ebook a{
+    display: block;
+    width: 498px;
+    height: 239px;
+    overflow: hidden;
+}
+.contant-menu li .ebook .txt h3,.contant-menu li .teach .txt h3{
+    font-size: 24px;
+    font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;
+    color: #05B7FA;
+}
+.contant-menu li .ebook .txt p,.contant-menu li .teach .txt p{
+    font-size: 14px;
+    font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;
+    color: #94B706;
+}
+.contant-menu li .blackboard{
+    width: 255px;
+    height: 260px;
+    background:url("../images/index/s05.png") no-repeat;
+}
+.contant-menu li .blackboard a{
+    display: block;
+    height: 257px;
+    overflow: hidden;
+}
+.contant-menu li .blackboard img{
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+}
+.contant-menu li img{
+    vertical-align: top;
+}
+
+.contant-link{
+    margin-top: 50px;
+}
+.contant-link p{
+    color: #999;
+    text-align: center;
+}
+.contant-link .link-bk{
+    width: 1210px;
+    height: 10px;
+    margin: 15px auto 0;
+    background: url("../images/index/link.gif") no-repeat;
+}
+
+.footer-bd{
+    width: 1070px;
+    margin: 60px auto 10px;
+}
+.footer-bd-link{
+    color: #999;
+}
+.footer-bd-link div{
+    position: relative;
+    width: 226px;
+    height: 30px;
+    margin-top: -10px;
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #CCCCCC;
+}
+.footer-bd-link div ul{
+    display: none;
+    position: absolute;
+    left: -1px;
+    bottom: 30px;
+    background: #fff;
+    width: 226px;
+    border: 1px solid #ddd;
+}
+.footer-bd-link div a{
+    margin: 0 10px;
+    color: #999;
+}
+.footer-bd-link div.on ul{
+    display: block;
+}
+
+.footer-bd-info{
+    width: 766px;
+    text-align: center;
+    color: #999;
+}
+.footer-bd-info li{
+    padding: 0 10px 10px;
+}
+
+.update-browser{
+    display: none;
+}
+
+.start-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.start-logo{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -91px 0 0 -101px;
+    z-index: 10;
+    width: 202px;
+    height: 183px;
+    background: url("../images/opening_logo.png");
+    }
+
+/*qiehuang*/
+.type-items{
+    position: absolute;
+    bottom: 150px;
+    right: 100px;
+    display: inline-block;
+}
+.type-items .type-list{
+    float: left;
+    display: inline-block;
+    margin-left: 15px;
+    color: #fff;
+}
+.type-items .type-list a{
+    color: #999;
+}
+.type-items .type-list a:hover{
+    color: #7DDAFC;
+}

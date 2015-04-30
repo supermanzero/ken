@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的班级-我的作业</title>
+    <link rel="stylesheet" href="../../assets/common/css/yahoo-reset.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/base.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/uikit.css"/>
+    <link rel="stylesheet" href="../../assets/homework/css/homework.css"/>
+</head>
+<body>
+<!--user-menu-->
+    <div class="user-menu yui3-g">
+        <div class="user-menu-hd yui3-u">
+            <a href="" class="yui3-u easyui-menubutton" data-options="menu:'#user-menu-content'">ASDFSDF<i class="fa fa-caret-down fa-blue fa-3x"></i></a>
+            <div id="user-menu-content" class="menu-content" style="position: absolute;">
+                <div class="user-menu-content-bd">
+                    <i class="fa fa-caret-up fa-2x"></i>
+                    <ul>
+                        <li>
+                            <a href="../accountSettings/message.html">消息</a>
+                        </li>
+                        <li>
+                            <a href="../accountSettings/bind.html">绑定</a>
+                        </li>
+                        <li>
+                            <a href="../accountSettings/userinfo-set.html">设置</a>
+                        </li>
+                        <li>
+                            <a href="">退出</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--user-menu end-->
+
+<!--cmspages-head-->
+    <div class="cmspages-head yui3-g">
+        <div class="cmspages-head-menu yui3-u easyui-menubutton" data-options="menu:'#cmspages-head-menu-content'">
+            <img class="yui3-u" src="../../assets/common/images/icon/48/s02.png" alt=""/>
+            <label class="yui3-u">个人空间</label>
+            <i class="fa fa-angle-down fa-3x"></i>
+        </div>
+        <div id="cmspages-head-menu-content" class="menu-content" style="position: absolute;">
+            <div class="cmspages-head-menut-bd">
+                <i class=""></i>
+                <ul class="yui3-g">
+                    <li class="yui3-u">
+                        <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s01.png" alt=""/></a>
+                        <p><a href="javascript:void(0)">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s02.png" alt=""/></a>
+                        <p><a href="javascript:void(0)">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s03.png" alt=""/></a>
+                        <p><a href="javascript:void(0)">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s04.png" alt=""/></a>
+                        <p><a href="javascript:void(0)">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href="../home/menu.html"><img src="../../assets/common/images/icon/48/home.png" alt=""/></a>
+                        <p><a href="../home/menu.html">首页</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!--cmspages-head end-->
+<div class="cmspages">
+    <div class="cmspages-layout yui3-g">
+        <div class="cmspages-content-menu yui3-u">
+            <div class="cmspages-content-menu-bd">
+                <ul>
+                    <li>
+                        <a class="on" href="javascript:void(0)"><i class="fa fa-chevron-circle-right fa-grey fa-2x"></i>我的作业</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cmspages-content yui3-u">
+            <div class="cmspages-space">
+                <div class="cmspages-space-bd">
+                    <!-- 顶导航 start -->
+                        <div class="class-box">
+                            <div class="yui3-u tabStyle">
+                                <ul class="class-tab">
+                                    <li class="on"><a href="javascript:void(0)">语文</a></li>
+                                    <li><a href="javascript:void(0)">数学</a></li>
+                                    <li><a href="javascript:void(0)">英语</a></li>
+                                </ul>
+                            </div>
+                            <div class="stageStyle yui3-u ml10" style="float:right;">
+                                <h4>
+                                    <a class="tagSelect w120" href="javascript:void(0);" val="0"><span class="">语文</span><i class="fa fa-chevron-down dropIcon"></i></a>
+                                </h4>
+                                <ul class="selectBox clickcon none">
+                                    <li><a class="openHover" href="javascript:void(0)" val="1">数学</a></li>
+                                    <li><a class="openHover" href="javascript:void(0)" val="1">英语</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    <!-- 顶导航 end -->
+                    <div class="cmspages-space-content-list">
+                        <table class="table table-hover work-index">
+                            <thead>
+                                <tr>
+                                    <th width="30%">作业名</th>
+                                    <th>截止时间</th>
+                                    <th>作业状态</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                   <th scope="row"><a href="./work_detail.html" class="work-name">集合与常用逻辑函数</a></th>
+                                   <td>2014-10-10</td>
+                                   <td>未提交</td>
+                                   <td class="operation"><a href="./work_write.html"><i class="fa fa-pencil mr5"></i>写作业</a></td>
+                                </tr>
+                                <tr>
+                                   <th scope="row"><a href="./work_detail.html">集合与常用逻辑函数</a></th>
+                                   <td>2014-10-10</td>
+                                   <td>已提交</td>
+                                   <td class="operation"><a href="./work_answer.html"><i class="fa fa-file mr5"></i>查看作业</a></td>
+                                </tr>
+                                <tr>
+                                   <th scope="row"><a href="./work_detail.html">集合与常用逻辑函数</a></th>
+                                   <td>2014-10-10</td>
+                                   <td>
+                                        <span class="wk-star">
+                                            <span class="wk-star-off">
+                                                <i class="fa fa-star-o fa-1"></i>
+                                                <i class="fa fa-star-o fa-1"></i>
+                                                <i class="fa fa-star-o fa-1"></i>
+                                                <i class="fa fa-star-o fa-1"></i>
+                                                <i class="fa fa-star-o fa-1"></i>
+                                                <span class="wk-star-box" style="width: 10%">
+                                                    <span class="wk-star-on">
+                                                        <i class="fa fa-star fa-1"></i>
+                                                        <i class="fa fa-star fa-1"></i>
+                                                        <i class="fa fa-star fa-1"></i>
+                                                        <i class="fa fa-star fa-1"></i>
+                                                        <i class="fa fa-star fa-1"></i>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                   </td>
+                                   <td class="operation"><a href="./work_correct.html"><i class="fa fa-search mr5"></i>查看批改</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <a href=""><</a>
+                <a class="on" href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <a href="">5</a>
+                <a href="">></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../assets/common/js/lib/jquery.js"></script>
+<script src="../../assets/common/js/require.js"></script>
+
+<script>
+    require(["easyui/easyloader","core/public"], function(easyloader,public) {
+        public.checkAll("#CheckAll","subBox")
+    });
+
+    /*
+    *tabs切换
+    */
+    $('.class-tab li').bind('click', function() {
+        $('.warp-table').hide();
+        $('.warp-table').eq($(this).index()).show();
+        $('.class-tab li').removeClass('on');
+        $(this).addClass('on');
+    });
+
+   /**
+         * 下拉菜单
+         * */
+        var dragBtn = $('.tagSelect');
+        dragBtn.on('click',function(){
+            var thisTop = $(this).parent().parent(),
+                    Obj = $(this);
+            if(Obj.hasClass('open')){
+                thisTop.find('.selectBox').hide();
+                Obj.removeClass('open');
+            }
+            else{
+                Obj.addClass('open');
+                thisTop.find('.selectBox').show().width(thisTop.width() - 2);
+                var select = thisTop.find('.selectBox li a');
+                select.on('click',function(){
+                    var text = $(this).text(),
+                            val = $(this).attr('val');
+                    Obj.find('span').text(text);
+                    Obj.attr('val',val);
+                    thisTop.find('.selectBox').hide();
+                    Obj.removeClass('open');
+                })
+            }
+        });
+
+
+</script>
+
+
+</body>
+</html>

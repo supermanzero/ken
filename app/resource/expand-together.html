@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="../../assets/common/css/yahoo-reset.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/dialog.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/base.css"/>
+    <link rel="stylesheet" href="../../assets/resource/css/style.css"/>
+</head>
+<body>
+<!--user-menu-->
+<div class="user-menu yui3-g">
+    <div class="user-menu-hd yui3-u">
+        <a href="" class="yui3-u easyui-menubutton" data-options="menu:'#user-menu-content'">ASDFSDF<i class="fa fa-caret-down fa-blue fa-3x"></i></a>
+        <div id="user-menu-content" class="menu-content" style="position: absolute;">
+            <div class="user-menu-content-bd">
+                <i class="fa fa-caret-up fa-2x"></i>
+                <ul>
+                    <li>
+                        <a href="../accountSettings/message.html">消息</a>
+                    </li>
+                    <li>
+                        <a href="../accountSettings/bind.html">绑定</a>
+                    </li>
+                    <li>
+                        <a href="../accountSettings/userinfo-set.html">设置</a>
+                    </li>
+                    <li>
+                        <a href="">退出</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--user-menu end-->
+
+<!--cmspages-head-->
+<div class="cmspages-head yui3-g">
+    <div class="cmspages-head-menu yui3-u easyui-menubutton" data-options="menu:'#cmspages-head-menu-content'">
+        <img class="yui3-u" src="../../assets/common/images/icon/48/s02.png" alt=""/>
+        <label class="yui3-u">个人空间</label>
+        <i class="fa fa-angle-down fa-3x"></i>
+    </div>
+    <div id="cmspages-head-menu-content" class="menu-content" style="position: absolute;">
+        <div class="cmspages-head-menut-bd">
+            <i class=""></i>
+            <ul class="yui3-g">
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s01.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s02.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s03.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s04.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="../home/menu.html"><img src="../../assets/common/images/icon/48/home.png" alt=""/></a>
+                    <p><a href="../home/menu.html">首页</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--cmspages-head end-->
+
+
+<div class="cmspages">
+<div class="cmspages-layout yui3-g">
+<div class="cmspages-content-menu yui3-u">
+    <div class="cmspages-content-menu-bd">
+        <ul>
+            <li>
+                <a href="./expand-base.html"><i class="fa fa-folder fa-grey fa-2x"></i>基础资源</a>
+            </li>
+            <li>
+                <a href="./expand-together.html" class="on"><i class="fa fa-folder fa-grey fa-2x"></i>同步资源</a>
+            </li>
+            <li>
+                <a href="./expand-special.html"><i class="fa fa-file-word-o fa-grey fa-2x"></i>专题拓展</a>
+            </li>
+            <li>
+                <a href="./expand-exam.html"><i class="fa fa-leanpub fa-grey fa-2x"></i>考试拓展</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="cmspages-content yui3-u">
+    <div class="cmspages-resource">
+        <div class="pub-search-box">
+            <div class="yui3-u">
+                <select name="" id="">
+                    <option value="">学段</option>
+                    <option value="">小学</option>
+                    <option value="">初中</option>
+                    <option value="">高中</option>
+                </select>
+                <select name="" id="">
+                    <option value="">科目</option>
+                    <option value="">语文</option>
+                    <option value="">数学</option>
+                    <option value="">英语</option>
+                </select>
+                <select name="" id="">
+                    <option value="">年级</option>
+                    <option value="">一年级全册</option>
+                    <option value="">二年级全册</option>
+                    <option value="">必修1</option>
+                    <option value="">必修2</option>
+                </select>
+                <select name="" id="">
+                    <option value="">章节</option>
+                    <option value="">第一章：二元一次方程</option>
+                    <option value="">第二章：二元一次方程</option>
+                </select>
+                <select name="" id="">
+                    <option value="">资源类型</option>
+                    <option value="">全部</option>
+                    <option value="">文档</option>
+                    <option value="">视频</option>
+                    <option value="">图片</option>
+                </select>
+            </div>
+            <div class="search yui3-g pub-search">
+                <input type="text" class="yui3-u search-input"/>
+                <input type="submit" name="search" class="yui3-u cp-button search-button" value="Go"/>
+            </div>
+            <div class="yui3-u-1 sort-tag">
+                <button class="yui3-u cp-button active">全部</button>
+                <button class="yui3-u cp-button">知识体系</button>
+                <button class="yui3-u cp-button">知识延伸</button>
+                <button class="yui3-u cp-button">知识探究</button>
+                <button class="yui3-u cp-button">科学世界</button>
+                <button class="yui3-u cp-button">能力提升</button>
+            </div>
+        </div>
+        <div class="cmspages-resource-bd">
+            <div class="pub-tabview">
+                <a href="./expand-together.html"><i class="fa fa-list fa-1x fa-grey"></i></a>
+                <a href="./expand-together-listPic.html"><i class="fa fa-th-large fa-1x fa-grey"></i></a>
+            </div>
+            <div  class="pub-table-list">
+                <table border="0">
+                    <tbody>
+                    <tr>
+                        <td style="width: 30%;">
+                            <label>
+                                <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal">文件名文件名</a>
+                            </label>
+                        </td>
+                        <td style="width: 30%;">
+                            2015-05-05
+                        </td>
+                        <td align="right" style="width: 40%;">
+                            <a class="like" href="" title="收藏"><i class="fa fa-heart fa-1x"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%;">
+                            <label>
+                                <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal">文件名文件名</a>
+                            </label>
+                        </td>
+                        <td style="width: 30%;">
+                            2015-05-05
+                        </td>
+                        <td align="right" style="width: 40%;">
+                            <a class="like" href="" title="收藏"><i class="fa fa-heart fa-1x"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%;">
+                            <label>
+                                <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal">文件名文件名</a>
+                            </label>
+                        </td>
+                        <td style="width: 30%;">
+                            2015-05-05
+                        </td>
+                        <td align="right" style="width: 40%;">
+                            <a class="like" href="" title="收藏"><i class="fa fa-heart fa-1x"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%;">
+                            <label>
+                                <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal">文件名文件名</a>
+                            </label>
+                        </td>
+                        <td style="width: 30%;">
+                            2015-05-05
+                        </td>
+                        <td align="right" style="width: 40%;">
+                            <a class="like" href="" title="收藏"><i class="fa fa-heart fa-1x"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%;">
+                            <label>
+                                <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal">文件名文件名</a>
+                            </label>
+                        </td>
+                        <td style="width: 30%;">
+                            2015-05-05
+                        </td>
+                        <td align="right" style="width: 40%;">
+                            <a class="like" href="" title="收藏"><i class="fa fa-heart fa-1x"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%;">
+                            <label>
+                                <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal">文件名文件名</a>
+                            </label>
+                        </td>
+                        <td style="width: 30%;">
+                            2015-05-05
+                        </td>
+                        <td align="right" style="width: 40%;">
+                            <a class="like" href="" title="收藏"><i class="fa fa-heart fa-1x"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%;">
+                            <label>
+                                <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal">文件名文件名</a>
+                            </label>
+                        </td>
+                        <td style="width: 30%;">
+                            2015-05-05
+                        </td>
+                        <td align="right" style="width: 40%;">
+                            <a class="like" href="" title="收藏"><i class="fa fa-heart fa-1x"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30%;">
+                            <label>
+                                <a href="../../assets/common/images/pic02.jpg" class="nyroModal" rel="gal">文件名文件名</a>
+                            </label>
+                        </td>
+                        <td style="width: 30%;">
+                            2015-05-05
+                        </td>
+                        <td align="right" style="width: 40%;">
+                            <a class="like" href="" title="收藏"><i class="fa fa-heart fa-1x"></i></a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="pagination">
+        <a href=""><</a>
+        <a class="on" href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <a href="">></a>
+    </div>
+</div>
+</div>
+</div>
+<div class="theme-tab">
+    <ul class="yui3-u">
+        <li class="yui3-u">
+            <a href="javascript:void(0)" class="" style="background: #5235D9" data-bg="../../assets/common/images/bg03.png"></a>
+        </li>
+        <li class="yui3-u">
+            <a href="javascript:void(0)" style="background: #FF7500" data-bg="../../assets/common/images/bg04.png"></a>
+        </li>
+        <li class="yui3-u">
+            <a href="javascript:void(0)" style="background: #2B7C8B" data-bg="../../assets/common/images/BG3.jpg"></a>
+        </li>
+        <li class="yui3-u">
+            <a href="javascript:void(0)" class="on" style="background: #57AE00" data-bg="../../assets/common/images/bg02.jpg"></a>
+        </li>
+        <li class="yui3-u">
+            <a href="javascript:void(0)" class="" style="background: #77C0ED" data-bg="../../assets/common/images/bg05.jpg"></a>
+        </li>
+    </ul>
+</div>
+
+<script src="../../assets/common/js/lib/jquery.js"></script>
+<script src="../../assets/common/js/require.js"></script>
+<script>
+    require(["resource/core"], function(resource) {
+        resource.dialog()
+    });
+</script>
+
+</body>
+</html>

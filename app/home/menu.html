@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="../../assets/common/css/yahoo-reset.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/dialog.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/base.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/style.css"/>
+    <style>
+        /*临时*/
+        .linkdialog{
+            display: block;;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 145px;
+            height: 29px;
+            background: url("../../assets/common/images/menu/s01.png") no-repeat;
+        }
+        .linkbbb{
+            margin: 90px auto 0;
+            width: 460px;
+            height: 1px;
+            background-image: url("../../assets/common/images/menu/t03.png");
+            background-repeat: repeat-x;
+        }
+        .linkbbb ul{
+            position: relative;
+            width: 575px;
+        }
+        .linkbbb ul li{
+            float: left;
+            width: 115px;
+        }
+        .linkbbb ul li a{
+            display: block;
+            width: 15px;
+            height: 15px;
+            margin-top: -7px;
+            background-image: url("../../assets/common/images/menu/t02.png");
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        .linkbbb ul li a.active{
+            background-image: url("../../assets/common/images/menu/t01.png");
+        }
+        .linkbbb ul li p{
+            margin-left: -15px;
+            margin-top: -25px;
+            margin-bottom: 10px;
+            color: #000;
+        }
+        .menu-page-list-nav {
+            height: 354px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body style="background: none">
+<a href="../../assets/common/images/menu/s03.png" class="linkdialog nyroModal"></a>
+
+
+
+    <div class="user-menu yui3-g">
+        <div class="user-menu-hd yui3-u">
+            <a href="" class="yui3-u easyui-menubutton" data-options="menu:'#user-menu-content'">ASDFSDF<i class="fa fa-caret-down fa-blue fa-3x"></i></a>
+            <div id="user-menu-content" class="menu-content" style="position: absolute;">
+                <div class="user-menu-content-bd">
+                    <i class="fa fa-caret-up fa-2x"></i>
+                    <ul>
+                        <li>
+                            <a href="../accountSettings/message.html">消息</a>
+                        </li>
+                        <li>
+                            <a href="../accountSettings/bind.html">绑定</a>
+                        </li>
+                        <li>
+                            <a href="../accountSettings/userinfo-set.html">设置</a>
+                        </li>
+                        <li>
+                            <a href="">退出</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="manu-page-wrap">
+        <div class="menu-page-list-nav">
+            <dl class="bxslider">
+                <dd>
+                    <ul class="yui3-g">
+                        <li class="yui3-u">
+                            <a href="../personalSpace/spance-list.html"><img src="../../assets/common/images/icon/s02.png" alt="" title="个人空间"/></a>
+                            <p><a href="../personalSpace/spance-list.html">个人空间</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href="../personalSpace/spance-list.html"><img src="../../assets/common/images/icon/s03.png" alt=""/></a>
+                            <p><a href="../personalSpace/spance-list.html">备课</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s09.png" alt=""/></a>
+                            <p><a href="">电子课本</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s04.png" alt="" title="授课"/></a>
+                            <p><a href="">授课</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s05.png" alt=""/></a>
+                            <p><a href="">教学设计</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s06.png" alt=""/></a>
+                            <p><a href="">校历</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s10.png" alt=""/></a>
+                            <p><a href="">备忘</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s08.png" alt=""/></a>
+                            <p><a href="">黑板</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s07.png" alt=""/></a>
+                            <p><a href="">人教学习网</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s01.png" alt=""/></a>
+                            <p><a href="">使用帮助</a></p>
+                        </li>
+                    </ul>
+                </dd>
+                <dd>
+                    <ul class="yui3-g">
+                        <li class="yui3-u">
+                            <a href="../personalSpace/spance-list.html"><img src="../../assets/common/images/icon/s02.png" alt="" title="个人空间"/></a>
+                            <p><a href="../personalSpace/spance-list.html">个人空间</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href="../personalSpace/spance-list.html"><img src="../../assets/common/images/icon/s03.png" alt=""/></a>
+                            <p><a href="../personalSpace/spance-list.html">备课</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s09.png" alt=""/></a>
+                            <p><a href="">电子课本</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s04.png" alt="" title="授课"/></a>
+                            <p><a href="">授课</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s05.png" alt=""/></a>
+                            <p><a href="">教学设计</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s06.png" alt=""/></a>
+                            <p><a href="">校历</a></p>
+                        </li>
+                    </ul>
+                </dd>
+                <dd>
+                    <ul class="yui3-g">
+                        <li class="yui3-u">
+                            <a href="../personalSpace/spance-list.html"><img src="../../assets/common/images/icon/s02.png" alt="" title="个人空间"/></a>
+                            <p><a href="../personalSpace/spance-list.html">个人空间</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s09.png" alt=""/></a>
+                            <p><a href="">电子课本</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s04.png" alt="" title="授课"/></a>
+                            <p><a href="">授课</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s05.png" alt=""/></a>
+                            <p><a href="">教学设计</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s06.png" alt=""/></a>
+                            <p><a href="">校历</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s10.png" alt=""/></a>
+                            <p><a href="">备忘</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s08.png" alt=""/></a>
+                            <p><a href="">黑板</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s07.png" alt=""/></a>
+                            <p><a href="">人教学习网</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s01.png" alt=""/></a>
+                            <p><a href="">使用帮助</a></p>
+                        </li>
+                    </ul>
+                </dd>
+                <dd>
+                    <ul class="yui3-g">
+                        <li class="yui3-u">
+                            <a href="../personalSpace/spance-list.html"><img src="../../assets/common/images/icon/s02.png" alt="" title="个人空间"/></a>
+                            <p><a href="../personalSpace/spance-list.html">个人空间</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href="../personalSpace/spance-list.html"><img src="../../assets/common/images/icon/s03.png" alt=""/></a>
+                            <p><a href="../personalSpace/spance-list.html">备课</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s09.png" alt=""/></a>
+                            <p><a href="">电子课本</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s04.png" alt="" title="授课"/></a>
+                            <p><a href="">授课</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s05.png" alt=""/></a>
+                            <p><a href="">教学设计</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s06.png" alt=""/></a>
+                            <p><a href="">校历</a></p>
+                        </li>
+                    </ul>
+                </dd>
+                <dd>
+                    <ul class="yui3-g">
+                        <li class="yui3-u">
+                            <a href="../personalSpace/spance-list.html"><img src="../../assets/common/images/icon/s02.png" alt="" title="个人空间"/></a>
+                            <p><a href="../personalSpace/spance-list.html">个人空间</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s09.png" alt=""/></a>
+                            <p><a href="">电子课本</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s04.png" alt="" title="授课"/></a>
+                            <p><a href="">授课</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s05.png" alt=""/></a>
+                            <p><a href="">教学设计</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s06.png" alt=""/></a>
+                            <p><a href="">校历</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s10.png" alt=""/></a>
+                            <p><a href="">备忘</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s08.png" alt=""/></a>
+                            <p><a href="">黑板</a></p>
+                        </li>
+                        <li class="yui3-u">
+                            <a href=""><img src="../../assets/common/images/icon/s01.png" alt=""/></a>
+                            <p><a href="">使用帮助</a></p>
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+
+        </div>
+
+        <div class="linkbbb">
+            <ul class="slidepage">
+                <li><p>办公人事</p><a data-slide-index="0"></a></li>
+                <li><p>教育管理</p><a data-slide-index="1"></a></li>
+                <li><p>教学教研</p><a data-slide-index="2"></a></li>
+                <li><p>家校互通</p><a data-slide-index="3"></a></li>
+                <li><p>社区园地</p><a data-slide-index="4"></a></li>
+            </ul>
+        </div>
+
+        <div class="menu-page-footer">
+            <div class="menu-page-footer-bd">
+                <img src="../../assets/common/images/cloud.png" alt="" class="cloud"/>
+                <img src="../../assets/common/images/cloud2.png" alt="" class="cloud2"/>
+            </div>
+        </div>
+    </div>
+
+<div class="" style="position: absolute; bottom: 0; right: 170px">
+    <ul class="yui3-u" style=" display: inline-block;background: url('../../assets/common/images/blackBk.png') repeat scroll;border-radius: 3px;padding: 6px;">
+        <li class="yui3-u" style="display: inline-block">
+            <a href="./index.html" style="display: inline-block; width: 20px; height: 20px; background-color: #c9302c; border-radius: 100px;"></a>
+        </li>
+    </ul>
+</div>
+    <div class="theme-tab">
+        <ul class="yui3-u">
+            <li class="yui3-u">
+                <a href="javascript:void(0)" class="" style="background: #5235D9"></a>
+            </li>
+            <li class="yui3-u">
+                <a href="javascript:void(0)" style="background: #FF7500"></a>
+            </li>
+            <li class="yui3-u">
+                <a href="javascript:void(0)" style="background: #2B7C8B"></a>
+            </li>
+            <li class="yui3-u">
+                <a href="javascript:void(0)" class="" style="background: #57AE00"></a>
+            </li>
+            <li class="yui3-u">
+                <a href="javascript:void(0)" class="" style="background: #77C0ED"></a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="../../assets/common/js/lib/jquery.js"></script>
+    <script src="../../assets/common/js/require.js"></script>
+    <script>
+        require(["easyui/easyloader","core/storage","lib/dialog","lib/bxslider/jquery.bxslider.min"], function() {
+            $(document).ready(
+                    function () {
+                        var $main = $cloud = mainwidth = null;
+                        var offset1 = -100;
+                        var offset2 = -100;
+                        var offsetbg = 0;
+                        $main = $(".menu-page-footer");
+                        $body = $("body");
+                        $cloud1 = $(".cloud");
+                        $cloud2 = $(".cloud2");
+                        mainwidth = $main.outerWidth();
+                        setInterval(function flutter() {
+                            if (offset1 >= mainwidth) {
+                                offset1 =  -580;
+                            }
+                            if (offset2 >= mainwidth) {
+                                offset2 =  -580;
+                            }
+                            offset1 += 2;
+                            offset2 += 1;
+                            $cloud1.css("left", offset1 + "px")
+
+                            $cloud2.css("right", offset2 + "px")
+                        }, 70);
+
+
+                        var storage = new Storage('local');
+                        if(storage.get('themeid')=="null"){
+                            storage.set('themeid', 0);
+                            console.log(storage.get('themeid'))
+                        }
+                        $(".manu-page-wrap").addClass("menu-page-theme-"+storage.get('themeid'));
+                        $(".theme-tab").find("a").eq(storage.get('themeid')).addClass("on")
+
+                        $(".theme-tab").find("a").each(function(i){
+                            $(this).on("click",function(){
+//                                storage.set('theme', "menu-page-theme-"+i);
+                                storage.set('themeid', i);
+                                $(".theme-tab").find("a").removeClass("on").eq(i).addClass("on");
+                                $(".manu-page-wrap").removeClass("menu-page-theme-0 menu-page-theme-1 menu-page-theme-2 menu-page-theme-3 menu-page-theme-4").addClass("menu-page-theme-"+storage.get('themeid'));
+                            })
+                        })
+
+                        $('.nyroModal').nyroModal({closeButton: '<a href="#" class="nyroModalClose nyroModalCloseButton nmReposition fa fa-times-circle fa-2x" title="close"></a>'});
+
+
+                        /*菜单切换*/
+                        $('.bxslider').bxSlider({
+                            pagerCustom: '.slidepage',
+                            speed:300,
+                            //mode:"fade",
+                            controls:false
+                        });
+
+
+                    }
+            );
+        });
+    </script>
+</body>
+</html>

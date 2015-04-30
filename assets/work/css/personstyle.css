@@ -1,0 +1,176 @@
+@charset "utf-8";
+/**
+*Name:Mai HuaQiu
+*Email:maihuaqiu@dt-edu.cn
+*Date:2014-7-3
+**/
+body{font-family:"微软雅黑"}
+.sidebar {
+  position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+	padding:0;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto; 
+
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+	padding:0;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto; 
+  }
+}
+.NewDesignBut:hover, .NewDesignBut:focus{color:#fff;}
+.row{margin-left: -15px;margin-right:0;}
+.LeftContent{float:left;width:175px;background:url(../../../images/right_shadow.gif) 0 0 repeat-y;}
+.LeftContent li{width:160px;}
+.TagSelect{width:120px;height:33px;margin:11px 0 8px 16px;text-align:left;padding:0;line-height:33px; text-indent:8px;}
+.TagBut{width:30px;height:31px;float:right;background:url(../../../images/re_icon.png) -50px -752px no-repeat;border-left:1px solid #ccc;border-right:0;border-top:0;}
+.SelectBox{top:41px;left:16px;width:120px;min-width:120px;}
+.SelectBox li{width:118px;height:30px;}
+.dropdown-menu > li > a{padding:5px 20px;}
+.dropdown-menu .downpressed{background:#eeeaea;}
+.ShareIcon,.MarkIcon,.FavorIcon,.RecycleBinIcon
+{float:left;width:16px;height:16px;background:url(../../../images/re_icon.png) no-repeat;border: 0px;margin:4px 5px 0 11px;}
+.ShareIcon{background-position: 3px -621px;}
+.MarkIcon{background-position: 4px -689px;}
+.FavorIcon {background-position: 0px -225px;}
+.RecycleBinIcon {height: 17px;background-position: 0px -266px;}
+.navtopbar{background:none;padding-bottom:10px;border-bottom:1px solid #fff;border-top:0;border-left:0;border-right:0;margin-bottom:10px;}
+.SearchContent{width:230px;float:right;margin:10px 10px 0 0;}
+.Rightcontent{ background: none;margin-left:175px;margin-right: 0;min-height: 100%;position: relative;width: auto;}
+.buttopbar{width: 100%;height:42px;font-size: 12px;border-bottom:1px solid #e7e7e7;padding-left:20px; padding-top: 5px;}
+.NewDesignBut,.OperationBlock{background:#53a93f;-mox-border-radius:3px;-weibkit-border-radius:3px;border-radius:3px;height:27px;line-height:14px;width:97px;float:left;color:#fff;border-color:#399a22;border-width:1px; border-style:solid;margin-right:10px;}
+.NewDesignBut a,.NewDesignBut a:hover{color:#fff;}
+.NewDesignBut:hover{background:#74bf62;border-color:#60ae4d;color:#fff;}
+.NewDesignBut:active{background:#3e802f;border-color:#399a22;color:#fff;}
+
+.OperationBlock {width:72px;background:#fff;border-color:#d9d9d9;color:#333;}
+.OperationBlockHover, .OperationBlock:hover {background:#fff;border-color:#b8b8b8;}
+.OperationBlockClick, .OperationBlock:active {background:#e5e5e5;border-color:#b8b8b8;}
+
+.NewDesignIcon,.NewDeleteIcon,.CourseIcon,.ShareIconT,.ShareIconB,.ShareIconCheck,.ShareIconFail,.MarkIconT,.MarkIconB,.EditIconT,.EditIconB,.Collection,.CollectionH
+{float:left;width:16px;height:16px;background:url(../../../images/re_icon.png) no-repeat;border: 0px;}
+
+.NewDesignIcon{background-position:-57px -787px; }
+.NewDeleteIcon{background-position:-93px -791px;margin:3px 0 0 1px;}
+.table-responsive{padding-left:20px;}
+.CourseIcon{background-position:-114px -763px;margin:3px 3px 0 0;}
+.ShareIconT,.ShareIconB,.ShareIconCheck,.ShareIconFail,.MarkIconT,.MarkIconB,.EditIconT,.EditIconB,.Collection,.CollectionH{margin-right:15px; cursor:pointer;}
+.ShareIconT{background-position: 3px -621px;}
+.ShareIconB{background-position: 3px -654px;}
+.ShareIconCheck{background-position:0 -759px;}
+.ShareIconFail{background-position:0 -797px;}
+.MarkIconT{background-position:0 -689px;width:9px;}
+.MarkIconB{background-position:0 -725px;width:9px;}
+.EditIconT{background-position:0 -866px;}
+.EditIconB{background-position:0 -828px;}
+.Collection{background-position:0 -225px;}
+.CollectionH{background-position:-57px -819px;}
+.CheckBox{position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 0px none; opacity: 0;}
+.IcheckBut{position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 0px none; opacity: 0;}
+.icheckbox_square-green {float: left;margin-right:5px;} 
+.list-footer .pagination {margin: 0 auto;}
+.list-footer{text-align: center;}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {border-top: 1px solid #efefef;}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {color: #333;background-color: #e8e8e8;}
+.hidden {display: none;}
+.EmptyBin{color:#56a845;font-size:1.2em;margin:3px 10px 0 0;float:left;}
+.EmptyBin:hover{text-decoration:underline;color:#56a845;}
+/*公共设计*/
+.PublicBar{margin-bottom:0;float: left; width: 100%;}
+.navdropbar{height: 60px; padding: 10px;border-bottom: 2px solid #efefef;background-color:#fff3e0;float:left;width:100%;}
+.ChooseTerm{width: 380px; height: 33px; float: left; display: inline; margin: 10px 0 0 15px;}
+.ChooseTerm .TagSelect{margin:0 0 0 5px;}
+.ChooseTerm .SelectBox{top:30px;left:5px;width:auto}
+.ChooseTerm .SelectBox li{width:auto}
+.WordBox{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width:81px;float:left;}
+.PublicSure{width:70px;height:32px;text-align:center;line-height:18px;color:#fff;margin-left:5px;}
+.PublicSure:hover, .PublicSure:focus{color:#fff;}
+.PublicRow{z-index:5;margin-top:66px;}
+.PublicLeftContent{background: url("../../../images/right_shadow.gif") repeat-y scroll;float: left;width: 175px;top:119px;}
+.PublicRow .sidebar{z-index:1;}
+.PublicContent{float:left;width:100%;clear:both;}
+	/*树形*/
+.tree-list{width:160px;}
+.OpenIcon,.OpenIcon:hover,.ContractionIcon,.ContractionIcon:hover,.ChooseIcon,.leaf .PointIcon{background:url(../../../images/tree_but.png) no-repeat;width:14px;height:14px;float:left;margin:5px 4px 0 4px;}
+.OpenIcon:hover{background-position:-17px 0;}
+.ContractionIcon{background-position:0 -20px;}
+.ChooseIcon{background-position:0 -41px;margin:9px 4px 0;}
+.leaf .PointIcon{background-position:-17px -41px;margin:11px 1px 0;}
+.glyphicon{top:2px;color: #5cb85c;}
+.tree-list span b{}
+.navbar {border-radius: 0; margin-bottom: 0;}
+.addDesign-box{width: 140px; margin: 10px 0 0 10px;}
+.menuGroup-box{width: 140px; margin: 10px 0 0 10px;}
+.menu-collapse .menuList{display: block; width: 140px;height: 58px; background: #f60;}
+/*左边导航*/
+.LeftTypeList{float:left;width:160px; position: relative;}
+.LeftTypeList .btn{width: 130px;}
+.LeftTypeList .btn-group .btn-right{width: 30px;}
+.LeftTypeList .btn-group .btn-left{width: 100px; min-width: 75px;}
+.LeftTypeList .btn-group .dropdown-menu{width: 130px;}
+.LeftTypeList > li > a{display: block;height: 48px; line-height: 48px; padding: 0 0 0 35px; white-space: nowrap;position: relative;}
+.LeftTypeList > li > a span.badge{height: 16px; line-height: 16px; padding:0px 7px; font-size: 10px;position: absolute;right: 13px;top: 16px;}
+.LeftTypeList > li > a span.icon-box{position: absolute; left: 7px; top: 12px;}
+.LeftTypeList > li > a span.icon-recycle{top: 10px;}
+.LeftTypeList li {border-bottom: 1px solid #e4e5e5;}
+.LeftTypeList li.last{border-bottom: none;}
+.LeftTypeList .LeftTypeChosen {background-color: #efefef;font-weight: bold;}
+.LeftTypeList > li > a:hover{background-color: #efefef; color: #737373;}
+a:link, a:visited, a:active {text-decoration: none;}
+.icon-myDesign {background: url("../image/my_design.png") 5px 2px no-repeat scroll;}
+.icon-teacherDesign{background: url("../image/teacher's_design.png") 5px 2px no-repeat scroll;}
+.icon-officialDesign{background: url("../image/official_design.png") 5px 2px no-repeat scroll;}
+.page-box {text-align: center;}
+.tableWarp td a.title span{color: #737373;float: left;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; width: 160px;}
+.tableWarp a:hover,.caption a:hover{color:#5cb85c; text-decoration: underline;}
+
+/*弹窗*/
+.addDesignBox{display: none; width: 442px;position: absolute;left: 300px;top: 100px;border-left: 1px solid #ddd;border-top: 1px solid #ddd;border-right: 1px solid #ddd;border-bottom: 2px solid #ddd;background-color: #fff; z-index: 1002;}
+.PopUpHeader{height: 33px;line-height: 33px;background-color: #fff;border-bottom: 1px solid #ddd;}
+.ClearFloat {zoom: 1;}
+.PopUpBox .CloseBtn {float: right;margin: 10px 15px; height: 13px;width: 13px;background: url("../../../images/re_icon.png") no-repeat -60px -281px;border: 0 none;}
+.addDesignBox .addTitle {padding:0 0px 0px 10px; display: inline;}
+.addDesignBox .CloseBtn {float: right;margin: 10px 15px;}
+.BodyMask{display: none; background: #666666; filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1001; text-align: center;}
+
+.addDesignBox .addDesignContent .addDesignFrom{width: 400px; margin: 40px auto;}
+.addDesignBox .addDesignContent .addDesignFrom .title-input{width: 389px; float: left; margin-left: 5px;}
+
+.addDesignBox .addDesignContent .addDesignFrom .MarkBox{margin-top: 7px; display: block;}
+.addDesignBox .addDesignContent .addDesignFrom .MarkBox .MarkIconB{margin: 3px 5px 0 5px;}
+.addDesignBox .addDesignContent .addDesignFrom .MarkBox span:hover, .addDesignBox .addDesignContent .addDesignFrom .MarkBox span:focus{color: #3e802f;}
+.addDesignBox .addDesignContent .addDesignFrom .dropdown{margin: 0 5px; width: 120px;}
+.addDesignBox .addDesignContent .addDesignFrom .btnBox{width: 100px; margin:0 auto; margin-top: 65px;}
+
+
+.icon-del{background-position: -54px -214px;}
+.PublicRowLeft{float:left;}
+.PublicRowRight{float:right;border-left:1px solid #ccc;background-color: #fbfcfe;width:170px;}
+.PublicRowRight-name{height:42px;float:left;width:165px; background: #e8e8e8;padding:10px;border-bottom: 1px solid #d5d5d5;color: #09972b;}
+.NoteBox{padding:10px;background: #fbfcfe; height: 100px;float:left;width:100%; overflow-y: auto;}
+.CoursewareBox-img{border:1px solid #cccccc; float: left;}
+.CoursewareBox-num{width:20px;float: left;height:100px;line-height: 100px;background: #dbdbdb; text-align:center;}
+
+/* 两列左侧自适应布局 */
+.g-bd2{}
+.g-sd2{position:relative;float:right;width:170px;margin-left:-170px}
+.g-mn2{float:left;width:100%;;}
+.g-mn2c{margin-right:170px;}
+.NoteBox-warp{resize:none;width: 100%;padding:5px;}
+.designTitle{float: left;}
+.designTitle span{display: block; width: 160px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px; float: left;}
+.note-title{display: block; width: 100%; margin: 0; text-align: center; color: #666; height: 40px; line-height: 40px; background: #fbfcfe;}
+.partCommentContainer-box{height: 120px; border-top:1px solid #e8e8e8; width: 100%; }
+a.delTitle:hover{color: #333;}

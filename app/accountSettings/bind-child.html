@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="../../assets/common/css/yahoo-reset.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/dialog.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/base.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/style.css"/>
+</head>
+<body>
+<!--user-menu-->
+    <div class="user-menu yui3-g">
+        <div class="user-menu-hd yui3-u">
+            <a href="" class="yui3-u easyui-menubutton" data-options="menu:'#user-menu-content'">ASDFSDF<i class="fa fa-caret-down fa-blue fa-3x"></i></a>
+            <div id="user-menu-content" class="menu-content" style="position: absolute;">
+                <div class="user-menu-content-bd">
+                    <i class="fa fa-caret-up fa-2x"></i>
+                    <ul>
+                        <li>
+                            <a href="../accountSettings/message.html">消息</a>
+                        </li>
+                        <li>
+                            <a href="../accountSettings/bind.html">绑定</a>
+                        </li>
+                        <li>
+                            <a href="../accountSettings/userinfo-set.html">设置</a>
+                        </li>
+                        <li>
+                            <a href="">退出</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--user-menu end-->
+
+<!--cmspages-head-->
+    <div class="cmspages-head yui3-g">
+        <div class="cmspages-head-menu yui3-u easyui-menubutton" data-options="menu:'#cmspages-head-menu-content'">
+            <img class="yui3-u" src="../../assets/common/images/icon/48/s02.png" alt=""/>
+            <label class="yui3-u">个人空间</label>
+            <i class="fa fa-angle-down fa-3x"></i>
+        </div>
+        <div id="cmspages-head-menu-content" class="menu-content" style="position: absolute;">
+            <div class="cmspages-head-menut-bd">
+                <i class=""></i>
+                <ul class="yui3-g">
+                    <li class="yui3-u">
+                        <a href=""><img src="../../assets/common/images/icon/48/s01.png" alt=""/></a>
+                        <p><a href="">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href=""><img src="../../assets/common/images/icon/48/s02.png" alt=""/></a>
+                        <p><a href="">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href=""><img src="../../assets/common/images/icon/48/s03.png" alt=""/></a>
+                        <p><a href="">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href=""><img src="../../assets/common/images/icon/48/s04.png" alt=""/></a>
+                        <p><a href="">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href="../home/menu.html"><img src="../../assets/common/images/icon/48/home.png" alt=""/></a>
+                        <p><a href="../home/menu.html">首页</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!--cmspages-head end-->
+
+<!--cmspages-message-->
+<div class="cmspages-message">
+    <div class="cmspage-bind-hd">
+        <p class="yui3-u">亲爱的同学，你可以把你的账号告诉你的父母并通过他们的绑定申请，让他更加清晰地了解你的学习情况。</p>
+    </div>
+    <ul class="cmspages-message-list cmspages-bind-list">
+        <li class="yui3-g">
+            <div class="img yui3-u">
+                <a href=""><img src="http://lorempixel.com/68/68/food/" alt=""/></a>
+            </div>
+            <div class="message-info yui3-u">
+                <h3><a href="">大明</a></h3>
+                <p>男</p>
+            </div>
+            <div class="cmspages-bind-btnbox yui3-u">
+                <a href="#nyroModal-unbind" class="yui3-u cp-button nyroModal">解绑</a>
+                <p>已允许绑定</p>
+            </div>
+        </li>
+        <li class="yui3-g">
+            <div class="img yui3-u">
+                <a href=""><img src="http://lorempixel.com/68/68/food/" alt=""/></a>
+            </div>
+            <div class="message-info yui3-u">
+                <h3><a href="">大明</a></h3>
+                <p>男</p>
+            </div>
+            <div class="cmspages-bind-btnbox yui3-u">
+                <a href="#nyroModal-checkok" class="yui3-u cp-button nyroModal">通过验证</a>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--cmspages-message end-->
+
+
+<div id="nyroModal-bind" style="display: none">
+    <div class="cmspages-dialog">
+        <div class="cmspages-dialog-hd">
+            <h3>绑定孩子</h3>
+        </div>
+        <div class="cmspages-dialog-bd">
+            <ul class="cmspages-dialog-bind-account"  style="display: block">
+                <!--绑定第一步-->
+                <li class="">
+                    <strong>输入孩子账号等待孩子申请绑定：</strong>
+                </li>
+                <li class="yui3-g">
+                    <label class="yui3-u ff">孩子账号：</label>
+                    <input class="yui3-u text" type="text" />
+                </li>
+                <li class="yui3-g">
+                    <label class="yui3-u ff"></label>
+                    <input class="yui3-u cp-button" type="submit" value="发送申请"/>
+                </li>
+                <!--绑定第一步 end-->
+            </ul>
+
+                <!--绑定第二步-->
+            <ul class="cmspages-dialog-bind-account" style="display: none">
+                <li class="">
+                    <strong>请您确认绑定信息：</strong>
+                </li>
+                <li class="yui3-g">
+                    <a class="cmspages-dialog-bind-account-userimg yui3-u" href="" ><img src="http://lorempixel.com/68/68/food/" alt=""></a>
+                    <div class="cmspages-dialog-bind-account-userinfo yui3-u">
+                        <h3>李晓明</h3>
+                        <p>XX班</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="yui3-u cp-button" style="margin: 0 10px 0 0">重填账号</a>
+                    <a href="" class="yui3-u cp-button" style="margin: 0 10px 0 0">确认</a>
+                </li>
+            </ul>
+                <!--绑定第二步 end-->
+
+
+                <!--绑定第三步-->
+            <ul class="cmspages-dialog-bind-account" style="display: none">
+                <li>
+                    <p align="center">
+                        <i class="fa fa-check fa-3x" style="color:#C1CD07"></i>已经成功发送申请，请等待对方验证。您可以告诉您的孩子让他通过您的绑定申请。
+                    </p>
+                </li>
+                <li style="text-align: center">
+                    <button class="yui3-u cp-button nyroModalClose">关闭</button>
+                </li>
+            </ul>
+                <!--绑定第三步 end-->
+        </div>
+    </div>
+</div>
+
+<div id="nyroModal-checkok" style="display: none">
+    <div class="cmspages-dialog">
+        <div class="cmspages-dialog-hd">
+            <h3>系统提示</h3>
+        </div>
+        <div class="cmspages-dialog-bd">
+            <ul class="cmspages-dialog-bind-account" style="display: block">
+                <li>
+                    <p align="center">
+                        <i class="fa fa-check fa-3x" style="color:#C1CD07"></i>绑定成功！
+                    </p>
+                </li>
+                <li style="text-align: center">
+                    <p id="timeend"></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="nyroModal-unbind" style="display: none">
+    <div class="cmspages-dialog">
+        <div class="cmspages-dialog-hd">
+            <h3>解绑</h3>
+        </div>
+        <div class="cmspages-dialog-bd">
+
+            <!--解除绑定第一步-->
+            <ul class="cmspages-dialog-bind-account" style="display: none">
+                <li class="">
+                    <p align="center">解绑孩子后，您再也不能查看孩子的课程、作业、测试等任何相关的信息，您确定要解绑吗？</p>
+                </li>
+                <li style="text-align: center">
+                    <a href="" class="yui3-u cp-button" style="margin: 0 5px">取消</a>
+                    <a href="" class="yui3-u cp-button" style="margin: 0 5px">确定</a>
+                </li>
+            </ul>
+            <!--解除绑定第一步 end-->
+
+
+            <!--解除绑定第二步-->
+            <ul class="cmspages-dialog-bind-account" style="display: block">
+                <li>
+                    <p align="center">
+                        <i class="fa fa-check fa-3x" style="color:#C1CD07"></i>解绑成功！
+                    </p>
+                </li>
+                <li style="text-align: center">
+                    <p id="timeend"></p>
+                </li>
+            </ul>
+            <!--解除绑定第二步 end-->
+        </div>
+    </div>
+</div>
+
+<script src="../../assets/common/js/lib/jquery.js"></script>
+<script src="../../assets/common/js/require.js"></script>
+<script>
+    require(["easyui/easyloader","lib/dialog","core/public"], function(easyloader,dialog,public) {
+        public.bindpage();
+    });
+</script>
+
+</body>
+</html>

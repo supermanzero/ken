@@ -1,0 +1,122 @@
+.span12 {
+    width: 940px;
+}
+.span11 {
+    width: 860px;
+}
+.span10 {
+    width: 780px;
+}
+.span9 {
+    width: 700px;
+}
+.span8 {
+    width: 620px;
+}
+.span7 {
+    width: 540px;
+}
+.span6 {
+    width: 460px;
+}
+.span5 {
+    width: 380px;
+}
+.span4 {
+    width: 300px;
+}
+.span3 {
+    width: 220px;
+}
+.span2 {
+    width: 140px;
+}
+.span1 {
+    width: 60px;
+}
+/* 固定+流式布局 */
+.fixed-fluid .span-fixed,
+.fixed-fluid .span-fluid {
+    float: left;
+}
+.fixed-fluid .span-fluid{
+    min-height: 1px;
+    margin-left: 20px;
+}
+.tree-list {
+    padding: 0;
+}
+/* 树形组价 */
+.tree-list span{
+    display: block;
+    height: 30px;
+    overflow: hidden;
+}
+.tree-list .badge{
+    background-color: #53a93f;
+    margin: 5px 0;
+}
+.tree-list .active .badge{
+    background-color: #fff;
+    color: #53a93f;
+}
+.tree-list span > i{
+    padding: .5em 0;
+    margin: 0 .3em;
+    cursor: pointer;
+}
+.tree-list li a,
+.tree-list li b {
+    padding: 0 .2em;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.tree-list span a,
+.tree-list span b {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    top: -26px;
+    margin-left: 20px;
+}
+.tree-list span a:hover,
+.tree-list span b:hover {
+    text-decoration: none;
+    background-color: #eeeeee;
+}
+.tree-list .leaf span a,
+.tree-list .leaf span b {
+    position: static;
+    top: 0;
+    left: 0;
+}
+.tree-list .active > span > a,
+.tree-list .active > span > a:hover {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #53a93f;
+}
+.tree-list span b {
+    color: #444;
+}
+.tree-list li ul {
+    padding: 0;
+    margin-left: 16px;
+}
+.icheck {
+    clear: both;
+}
+.icheck > div {
+    margin: 1px 0;
+}
+.icheck > label {
+    margin-left: 10px;
+}
+.icheck > div,
+.icheck > label {
+    float: left;
+}

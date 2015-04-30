@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>班级管理</title>
+    <link rel="stylesheet" href="../../assets/common/css/yahoo-reset.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/uikit.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/base.css"/>
+    <link rel="stylesheet" href="../../assets/grade_menage/css/grade.css"/>
+    <link rel="stylesheet" href="../../assets/common/js/lib/uploadify/uploadify.css"/>
+</head>
+<body>
+<!--user-menu-->
+<div class="user-menu yui3-g">
+    <div class="user-menu-hd yui3-u">
+        <a href="" class="yui3-u easyui-menubutton" data-options="menu:'#user-menu-content'">ASDFSDF<i class="fa fa-caret-down fa-blue fa-3x"></i></a>
+        <div id="user-menu-content" class="menu-content" style="position: absolute;">
+            <div class="user-menu-content-bd">
+                <i class="fa fa-caret-up fa-2x"></i>
+                <ul>
+                    <li>
+                        <a href="../message.html">消息</a>
+                    </li>
+                    <li>
+                        <a href="../bind.html">绑定</a>
+                    </li>
+                    <li>
+                        <a href="../userinfo-set.html">设置</a>
+                    </li>
+                    <li>
+                        <a href="">退出</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--user-menu end-->
+
+<!--cmspages-head-->
+<div class="cmspages-head yui3-g">
+    <div class="cmspages-head-menu yui3-u easyui-menubutton" data-options="menu:'#cmspages-head-menu-content'">
+        <img class="yui3-u" src="../../assets/common/images/icon/48/s02.png" alt=""/>
+        <label class="yui3-u">班级管理</label>
+        <i class="fa fa-angle-down fa-3x"></i>
+    </div>
+    <div id="cmspages-head-menu-content" class="menu-content" style="position: absolute;">
+        <div class="cmspages-head-menut-bd">
+            <i class=""></i>
+            <ul class="yui3-g">
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s01.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s02.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s03.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s04.png" alt=""/></a>
+                    <p><a href="javascript:void(0)">备课</a></p>
+                </li>
+                <li class="yui3-u">
+                    <a href="./menu.html"><img src="../../assets/common/images/icon/48/home.png" alt=""/></a>
+                    <p><a href="../menu.html">首页</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--cmspages-head end-->
+
+
+<div class="cmspages">
+    <div class="cmspages-layout yui3-g">
+        <div class="cmspages-content-menu yui3-u">
+            <div class="cmspages-content-menu-bd">
+                <ul>
+                    <li>
+                        <a href="./grade_index.html"><i class="fa fa-chevron-circle-right fa-grey fa-2x"></i>年级管理</a>
+                    </li>
+                    <li>
+                        <a href="./grade_teacher.html"><i class="fa fa-chevron-circle-right fa-grey fa-2x"></i></i>教师管理</a>
+                    </li>
+                    <li>
+                        <a  class="on" href="./grade_class.html"><i class="fa fa-chevron-circle-right fa-grey fa-2x"></i>班级管理</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cmspages-content yui3-u">
+            <div class="cmspages-space">
+
+                <div class="class-info-box">
+                    <div class="info-left">
+                        <img class="edit-avatar" src="../../assets/grade_menage/images/jinshanshan.jpg" width="100" height="100">
+                        <p class="tips"><a class="msg">点击设置头像</a></p>
+                    </div>
+                    <div class="info-right">
+                        <p>初一（1）班</p>
+                        <p><span class="mr50">人数：40人</span><span class="">班主任：老杨 <a href="javascript:void(0)" class=" cp-button editTeacher" title="设置"><i class="fa fa-cog"></i></a></span></p>
+                        <div class="bbs" title="娃呀！该上课了！">班级公告：<span class="bbs-info">娃呀！该上课了！</span><a href="javascript:void(0)" class="cp-button editBBS" title="修改公告"><i class="fa fa-pencil"></i></a></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="student-box">
+                    <h3 class="class-heading">学生</h3>
+                    <ul class="class-items">
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="teacher-box">
+                    <h3 class="class-heading">老师</h3>
+                    <ul class="class-items">
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="50" height="50"></a>
+                            <p class="name">张三</p>
+                        </li>
+                        <li class="items-list">
+                            <a class="add-class" id="addTeacher"></a>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 添加老师 dialog start -->
+<div id="addClassTeacher" class="none">
+    <div class="dialog-box">
+        <div class="dialog-body">
+            <div class="add-teacher-left">
+                <div class="choose-ground mb15">
+                    <div class="mine-select yui3 mr15">
+                        <ul class="fl">
+                            <li class="stageStyle fl blue yui3-u">
+                                <h4>
+                                    <a class="tagSelect fl" href="javascript:void(0);"><span class="fl">一年级</span><i class="fa fa-chevron-down dropIcon"></i></a>
+                                </h4>
+                                <ul class="selectBox clickcon" style="width: 90px; display: none;">
+                                    <li><a class="openHover" href="javascript:void(0)">二年级</a></li>
+                                    <li><a class="openHover" href="javascript:void(0)">三年级</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mine-select yui3">
+                        <ul class="fl">
+                            <li class="stageStyle fl blue yui3-u">
+                                <h4>
+                                    <a class="tagSelect fl" href="javascript:void(0);"><span class="fl">语文</span><i class="fa fa-chevron-down dropIcon"></i></a>
+                                </h4>
+                                <ul class="selectBox clickcon" style="width: 90px; display: none;">
+                                    <li><a class="openHover" href="javascript:void(0)">数学</a></li>
+                                    <li><a class="openHover" href="javascript:void(0)">英语</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pending-constituency">
+                    <ul class="teacher-items">
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                        <li class="teacher-list" id="">老杨</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exchange-box"><i class="fa fa-exchange"></i></div>
+            <div class="add-teacher-right">
+                <h3 class="choose-heading">班级老师</h3>
+                <div class="Selected-box">
+                    <ul class="teacher-items"></ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="dialog-footer mt15" style="text-align: center;">
+            <a href="javascript:void(0)" class="yui3-u cp-button mr5">确定</a>
+            <a href="javascript:void(0)" class="yui3-u default-button exitBnt">取消</a>
+        </div>
+    </div>
+</div>
+<!-- 添加老师 dialog end -->
+
+<!-- 设置老师 dialog start -->
+<div id="setClassTeacher" class="none">
+    <div class="dialog-box">
+        <div class="dialog-body">
+            <h3 class="dialog-heading-title">广州真光中学 初一（4）班 老师</h3>
+            <ul class="teacher-items">
+                <li class="items-list current">
+                    <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="70" height="70"></a>
+                    <p class="name">张三</p>
+                </li>
+                <li class="items-list">
+                    <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="70" height="70"></a>
+                    <p class="name">张三</p>
+                </li>
+                <li class="items-list">
+                    <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="70" height="70"></a>
+                    <p class="name">张三</p>
+                </li>
+                <li class="items-list">
+                    <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="70" height="70"></a>
+                    <p class="name">张三</p>
+                </li>
+                <li class="items-list">
+                    <a class="class-avatar" href="#"><img src="../../assets/grade_menage/images/jinshanshan.jpg" width="70" height="70"></a>
+                    <p class="name">张三</p>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="dialog-footer mt15" style="text-align: center;">
+            <a href="javascript:void(0)" class="yui3-u cp-button mr5">确定</a>
+            <a href="javascript:void(0)" class="yui3-u default-button exitBnt">取消</a>
+        </div>
+    </div>
+</div>
+<!-- 设置老师 dialog end -->
+
+<!-- 修改头像 dialog end -->
+<div id="uploadAvatar" class="none">
+    <div class="dialog-box">
+        <div class="dialog-body">
+            <div class="pic-box mb10">
+                <img src="../../assets/grade_menage/images/jinshanshan.jpg" width="100" height="100">
+            </div>
+            <input type="file" id="upload_avatar">
+        </div>
+        <div class="dialog-footer mt15" style="text-align: center;">
+            <a href="javascript:void(0)" class="yui3-u cp-button mr5">保存</a>
+            <a href="javascript:void(0)" class="yui3-u default-button exitBnt">取消</a>
+        </div>
+    </div>
+</div>
+<!-- 修改头像 dialog end -->
+
+<script src="../../assets/common/js/lib/jquery.js"></script>
+<script src="../../assets/common/js/lib/jquery-easyui-1.4.2/easyloader.js"></script>
+<script src="../../assets/common/js/lib/artDialog4/jquery.artDialog.js?skin=default"></script>
+<script src="../../assets/common/js/lib/uploadify/jquery.uploadify.min.js"></script>
+<script src="../../assets/grade_menage/js/class.js"></script>
+
+</body>
+</html>

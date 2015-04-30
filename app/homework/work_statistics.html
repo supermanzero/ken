@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的班级-我的作业-统计</title>
+    <link rel="stylesheet" href="../../assets/common/css/yahoo-reset.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../assets/common/css/base.css"/>
+    <link rel="stylesheet" href="../../assets/homework/css/homework.css"/>
+</head>
+<body>
+<!--user-menu-->
+    <div class="user-menu yui3-g">
+        <div class="user-menu-hd yui3-u">
+            <a href="" class="yui3-u easyui-menubutton" data-options="menu:'#user-menu-content'">ASDFSDF<i class="fa fa-caret-down fa-blue fa-3x"></i></a>
+            <div id="user-menu-content" class="menu-content" style="position: absolute;">
+                <div class="user-menu-content-bd">
+                    <i class="fa fa-caret-up fa-2x"></i>
+                    <ul>
+                        <li>
+                            <a href="../message.html">消息</a>
+                        </li>
+                        <li>
+                            <a href="../bind.html">绑定</a>
+                        </li>
+                        <li>
+                            <a href="../userinfo-set.html">设置</a>
+                        </li>
+                        <li>
+                            <a href="">退出</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--user-menu end-->
+
+<!--cmspages-head-->
+    <div class="cmspages-head yui3-g">
+        <div class="cmspages-head-menu yui3-u easyui-menubutton" data-options="menu:'#cmspages-head-menu-content'">
+            <img class="yui3-u" src="../../assets/common/images/icon/48/s02.png" alt=""/>
+            <label class="yui3-u">我的班级</label>
+            <i class="fa fa-angle-down fa-3x"></i>
+        </div>
+        <div id="cmspages-head-menu-content" class="menu-content" style="position: absolute;">
+            <div class="cmspages-head-menut-bd">
+                <i class=""></i>
+                <ul class="yui3-g">
+                    <li class="yui3-u">
+                        <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s01.png" alt=""/></a>
+                        <p><a href="javascript:void(0)">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s02.png" alt=""/></a>
+                        <p><a href="javascript:void(0)">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s03.png" alt=""/></a>
+                        <p><a href="javascript:void(0)">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href="javascript:void(0)"><img src="../../assets/common/images/icon/48/s04.png" alt=""/></a>
+                        <p><a href="javascript:void(0)">备课</a></p>
+                    </li>
+                    <li class="yui3-u">
+                        <a href="../home/menu.html"><img src="../../assets/common/images/icon/48/home.png" alt=""/></a>
+                        <p><a href="../home/menu.html">首页</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!--cmspages-head end-->
+<div class="cmspages">
+    <div class="cmspages-layout yui3-g">
+        <div class="cmspages-content-menu yui3-u">
+            <div class="cmspages-content-menu-bd">
+                <ul>
+                    <li>
+                        <a class="on" href="javascript:void(0)"><i class="fa fa-chevron-circle-right fa-grey fa-2x"></i>我的作业</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cmspages-content yui3-u">
+            <div class="cmspages-space">
+                <div class="cmspages-space-hd">
+                    <div class="wk-breadcrumb">
+                        <ol class="breadcrumb fl">
+                            <li><a href="./work_index.html">我的作业</a><i class="fa fa-angle-right ml5 mr5"></i></li>
+                            <li><a href="./work_detail.html">作业详情</a><i class="fa fa-angle-right ml5 mr5"></i></li>
+                            <li class="active">作业批改报告</li>
+                        </ol>
+                        <div class="btn-box fr">
+                            <a href="#" class="yui3-u cp-button fr">返回</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cmspages-space-bd">
+                    <div class="cmspages-space-content-list">
+                        <div class="exam-wrap-statistics">
+                           <div class="statistics-box">
+                               <p class="f16 mb5">作业名字</p>
+                               <a href="./work.correct.html">查看批改情况</a>
+                           </div>
+                           <div class="fl">
+                                <table class="table table-hover warp-statistics">
+                                    <thead>
+                                    <tr>
+                                        <th width="10%">测试时长</th>
+                                        <th width="20%">测试开始时间</th>
+                                        <th width="20%">测试结束时间</th>
+                                        <th>总题数</th>
+                                        <th width="20%">答对题/主观题</th>
+                                        <th>准确率</th>
+                                        <th>分数</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>2小时</td>
+                                        <td>2015.02.02 14:00</td>
+                                        <td>2015.02.02 15:00</td>
+                                        <td>15</td>
+                                        <td>10/5</td>
+                                        <td>10%</td>
+                                        <td>50</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                
+                                <div class="img-statistics">
+                                    <table class="table table-hover warp-statistics">
+                                        <thead>
+                                        <tr>
+                                            <th width="10%">学科</th>
+                                            <th>测试知识点分布图</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>语文</td>
+                                            <td class="knowledge-sub" style="padding:0">
+                                                <p id="container" style="min-width:700px;height:400px"></p>
+                                                <ul class="knowledge-box">
+                                                    <li><p class="fl">字音</p><span class="fr">1题（2.94%）</span></li>
+                                                    <li><p class="fl">字形</p><span class="fr">1题（2.94%）</span></li>
+                                                    <li><p class="fl">图文转换</p><span class="fr">1题（2.94%）</span></li>
+                                                    <li><p class="fl">词语的含义和作用</p><span class="fr">1题（2.94%）</span></li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+<script src="../../assets/common/js/lib/jquery.js"></script>
+<script src="../../assets/homework/js/Highcharts-4.0.1/js/highcharts.js"></script>
+<script type="text/javascript">
+﻿$(function () {
+    $('#container').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false
+        },
+        title: {
+            text: '语文知识分布图'
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    color: '#000000',
+                    connectorColor: '#000000',
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: '语文知识分布图',
+            data: [
+                ['字形',   45.0],
+                ['字音',       26.8],
+                {
+                    name: '词语',
+                    y: 12.8,
+                    sliced: true,
+                    selected: true
+                },
+                ['图文转换',    8.5],
+                ['含义',     6.2],
+                ['作用',   0.7]
+            ]
+        }]
+    });
+});                            
+</script>
+</body>
+</html>
